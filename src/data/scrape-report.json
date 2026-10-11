@@ -1,0 +1,686 @@
+{
+  "generatedAt": "2026-10-11T22:50:53.028Z",
+  "total": 84,
+  "entries": [
+    {
+      "url": "https://imslp.org/wiki/Universal_Saxophone_Method_(Prendiville,_Harry)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/New_and_Grand_Method_for_Saxophone_(Mayeur,_Louis_Adolphe)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/Grande_méthode_complète_de_saxophones_(Mayeur,_Louis_Adolphe)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/Méthode_complète_des_saxophones_(Klosé,_Hyacinthe_Eléonore)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://archive.org/details/25EjerciciosDiariosParaSaxofnHKlose",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://randyhunterjazz.com/assets/longtones4sax.pdf",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/lessons/tone-sound/tone-exercises",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxschoolonline.com/wp-content/uploads/2015/05/McGill-Music-Sax-School-Finger-Chart.pdf",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.dansr.com/resources/saxophone-fingering-chart-for-band-directors-music-educators-and-students-by-vandoren-juno-reeds",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.selmer.fr/en/blogs/infos/entretien-du-saxophone",
+      "status": 429,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/maintenance/",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/Category:For_saxophone",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/Category:Scores_featuring_the_alto_saxophone",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?CATEGORIE=160",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/johnny-hodges-papa-knows-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/33630425/scores/14347714",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/27397056/scores/5602521",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/oleo-rhythm-changes-john-coltrane/oleo-lead-sheet.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/aidanbrown03/solo-transcription-tenor-madness-sonny-rollins-with-john-coltrane",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/boydogzebra/john-coltrane-solo-transcription-lazy-bird-blue-train",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://jazzbarisax.com/transcription/",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.pepperadams.com/Transcriptions/Unforgettable_Schaefer.pdf",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/26830621/scores/5211482",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/4561226/scores/7768997",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/35998361/scores/9436000",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/user/33551745/scores/10944049",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/sheetmusic/solo/saxophone-soprano",
+      "status": 403,
+      "kind": "none",
+      "reached": false,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/25_%C3%89tudes_de_m%C3%A9canisme_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.randyhunterjazz.com/free-downloads.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://archive.org/details/universalmethodf00villuoft",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/25_Exercices_journaliers_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
+      "status": 200,
+      "kind": "video",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
+      "status": 200,
+      "kind": "video",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
+      "status": 200,
+      "kind": "video",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/just-the-two-of-us-saxophone-sheet-music/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/careless-whisper-saxophone-sheet-musi/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/the-pink-panther-saxophone-sheet-music/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/tequila-saxophone-sheet-music/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/baker-street-saxophone-sheet-music/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/easy/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/christmas/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/hymns/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/patriotic/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/celtic/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxophonemusic.org/category/classical/",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?instrument_ID=7000&CATEGORIE=20",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/sahib-shihab-transcription-straight-no-chaser.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/sahib-shaab-straight-no-chaser-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/johnny-hodges-basin-st-blues-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/blues-o-mighty-johnny-hodges-sheet-music.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/johnny-hodges-blues-o-mighty-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-free-sheet-music-the-touch-of-your-lips.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-touch-of-your-lips-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-sheet-music-how-deep-is-the-ocean.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-how-deep-is-the-ocean-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-transcription-bye-bye-blackbird.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-bye-bye-blackbird-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-all-of-me.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-all-of-me-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-shoeshine-boy.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-shoeshine-boy-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-oh-lady-be-good.html",
+      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-oh-lady-be-good-transcription.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "pdf",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "kind": "page",
+      "reached": true,
+      "blocked": false,
+      "repaired": false
+    }
+  ]
+}

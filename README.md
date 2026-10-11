@@ -1,145 +1,115 @@
 # Saxophone PDF Reader
 
-A web app that helps musicians find, view, and download freely accessible PDF
-resources about the saxophone. The catalog ships with real, publicly reachable
-PDFs and viewer pages: historical method books, studies, technique exercises,
-fingering charts, instrument maintenance guides, and sheet music.
+Buscador de transcripciones, métodos y recursos de saxofón. Un scraper recorre
+las páginas de origen, resuelve **qué hay exactamente en cada enlace** (PDF,
+imagen, vídeo o sólo una página) y lo deja en una BBDD JSON que alimenta la app:
+buscar, filtrar por proyecto/tipo/instrumento, ver dentro de la app y descargar.
 
-> The app never stores or redistributes the PDFs itself. Every resource links to
-> its original source (IMSLP, Internet Archive, manufacturers, community
-> projects) so copyright status and licensing are always respected.
-
----
-
-## How it works
-
-1. **Catalog** – A searchable, filterable grid of saxophone PDF resources.
-   Each card shows the title, description, license note, and instrument for
-   solo transcriptions.
-2. **View** – Click **👁️ Ver** on any resource to open the viewer **inside the
-   same page** (no navigation away). The resource loads in an `<iframe>` so
-   you can read the PDF or score without leaving the app.
-3. **Download** – A direct link to the `.pdf` file kicks off a browser download.
-4. **Cerrar** – The viewer has a close button (✕) to go back to the catalog.
-
-Each card shows title, description, and the copyright/license note, so the
-user can check the rights before using the material.
+> La app nunca aloja los documentos: enlaza a la fuente original (IMSLP, Internet
+> Archive, MuseScore, SaxTeacher UK, Scooby Sax…) y muestra el estado de derechos
+> de cada recurso.
 
 ---
 
-## Tech stack (the "skills" required)
+## Cómo funciona
 
-| Area | Technology | Why |
-| --- | --- | --- |
-| Framework | [React 19](https://react.dev) | Component UI, state/local routing |
-| Build | [Vite 8](https://vite.dev) | Fast dev server + production bundle |
-| Language | TypeScript 6 | Type-safe props, config, and data shapes |
-| Styling | Plain CSS (CSS variables) | No extra dependency; themeable via :root tokens |
-| Data | Local TypeScript catalog | Curated `SaxophonePdfResource[]` list, CATEGORIES, pagination |
-| Icons | Emoji | Zero-dependency inline icons |
+```
+scripts/sources.json          lista curada de enlaces (semilla, editable a mano)
+        │  npm run scrape
+        ▼
+src/data/transcriptions.json  BBDD: estado HTTP + medio resuelto + candidatos
+        │  npm run build
+        ▼
+dist/                         app estática (GitHub Pages)
+```
 
-The stack is deliberately small so the app stays easy to run, extend, and
-host. Everything is compiled to a static site (see `dist/` after `npm run build`).
+1. **Scraping de build** (`scripts/scrape.mjs`): visita cada página, guarda el
+   estado HTTP y decide el medio:
+   - **PDF** directo (aunque esté enlazado dentro de una página con 260
+     partituras: se elige la que corresponde al título, y la tonalidad del
+     instrumento cuando hay versiones Bb/Eb).
+   - **Vídeo** con su URL de embed (YouTube/Vimeo o `.mp4`). Sólo se acepta una
+     URL que sea un vídeo: un canal de YouTube no es un vídeo.
+   - **Imagen** de partitura.
+   - **Página**: cuando no hay fichero identificable, la ficha abre la fuente en
+     una pestaña nueva.
+   - **Reparación**: si un enlace está caído (404), se busca la página viva en el
+     índice del proyecto y se empareja por título (así se arreglaron 8 enlaces
+     muertos de SaxTeacher UK).
+2. **Scraping en el navegador** (`src/lib/scrape.ts`): un enlace puede cambiar
+   después de generar la BBDD. El botón *«Buscar fichero»* de cada ficha (y
+   *«Volver a buscar»* en el visor) relee la página con las mismas reglas y
+   guarda el resultado en `localStorage`. Como el navegador no puede leer
+   orígenes ajenos, se usa una cadena de proxies CORS públicos
+   (allorigins → codetabs → jina) o el tuyo propio con `VITE_SCRAPE_PROXY`.
+3. **Visor por tipo**: PDF e imágenes en `<iframe>`/`<img>`, vídeos embebidos, y
+   aviso + botón cuando el sitio prohíbe el iframe (MuseScore, free-scores,
+   Taming the Saxophone, La Touche Musicale) o bloquea a los bots (403/429).
 
-### To run locally
+---
+
+## Filtros del catálogo
+
+- **Proyecto** (sitio de origen; 17 proyectos, con su número de recursos).
+- **Tipo** de medio: PDF, Imagen, Vídeo, Página.
+- **Categoría**: PDF, Solo alto/tenor/bari/soprano, Etudes/intérêts.
+- **Instrumento**: Alto, Tenor, Bari, Soprano.
+- Búsqueda por título, solista, proyecto o categoría, y opción *«Incluir enlaces
+  caídos»*.
+
+---
+
+## Comandos
 
 ```bash
 npm install
-npm run dev        # dev server at http://localhost:5173
-npm run build      # produces dist/ (typecheck + bundle)
-npm run preview    # preview the production build
+npm run dev            # servidor de desarrollo
+
+npm run scrape         # visita todas las fuentes y reescribe la BBDD
+npm run scrape -- --only imslp.org      # sólo un dominio (no borra el resto)
+npm run scrape -- --limit 5 --delay 0   # prueba rápida
+npm run scrape:sources # regenera scripts/sources.json desde el catálogo a mano
+npm run check:data     # valida la BBDD (lo usa el CI antes de compilar)
+
+npm run build          # typecheck + bundle a dist/
+npm run build:all      # scrape + validación + build
+npm run lint
 ```
 
-### To deploy
-
-The output is static and can be dropped on any static host (GitHub Pages,
-Netlify, Vercel, Cloudflare Pages, an S3 bucket, etc.). If you use
-[Freebuff Sites](https://freebuff.com), add a Worker that serves `dist/` as
-assets and proxy the SPA fallback.
+Para añadir recursos: edita `scripts/sources.json` (o `src/catalog.ts` y luego
+`npm run scrape:sources`), ejecuta `npm run scrape` y revisa el resumen que
+imprime (cuántos PDFs, cuántos caídos, cuántos reparados).
 
 ---
 
-## The "skills" (competencies) for this project
+## Deploy automático (GitHub Pages)
 
-Building this app requires a mix of technical, musical, and legal competencies:
+El workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) compila
+y publica en cada push a `main`, y además:
 
-1. **Frontend engineering** – React + Vite + TypeScript to render the catalog
-   and PDF viewers reliably.
-2. **Web security / privacy** – The app keeps all viewing inside the page: when
-   you click **👁️ Ver**, the resource loads in an `<iframe>` within the
-   viewer (the iframe is sandboxed and only same-origin resources are
-   embedded). External tools are opened only in a new tab via
-   `rel="noopener noreferrer"` to avoid tab-nabbing and data leakage.
-3. **Legal / licensing awareness** – Surfacing copyright status on every card
-   and warning users to check the source's license before use, rather than
-   assuming public domain.
-4. **Musical literacy** – Presenting the resources in sensible groups
-   (methods, studies, technique, fingering, maintenance, sheet music) so
-   users can find what they need.
-5. **Responsive design** – A grid that works on mobile (where many
-   saxophone students access material) and desktop.
-6. **Documentation / onboarding** – Clear run instructions and a plain-language
-   explanation of what the app does and does not do.
+- se puede lanzar a mano (**Actions → Deploy a GitHub Pages → Run workflow**)
+  marcando *«Volver a hacer scraping»* para refrescar la BBDD en el deploy;
+- corre **cada lunes** con scraping, así se detectan enlaces caídos y ficheros
+  nuevos sin que nadie haga nada.
+
+Para activarlo una sola vez: **Settings → Pages → Source: GitHub Actions**.
+
+La BBDD incluida en el repo hace que un deploy normal sea rápido y reproducible
+(no depende de que los sitios de terceros respondan). Alternativa manual:
+`npm run deploy:github`, que publica `dist/` en la rama `gh-pages`.
+
+`vite.config.ts` usa `base: "/saxo-reader/"` porque el sitio se sirve en
+`https://<usuario>.github.io/saxo-reader/`; cámbialo si usas dominio propio.
 
 ---
 
-## Curated resources (example entries)
+## Límites conocidos
 
-| Category | Title | View | Download |
-| --- | --- | --- | --- |
-| Method | Universal Method for the Saxophone (de Ville) | \[\] | \[\] |
-| Studies | 25 Exercices journaliers (Klosé) | \[\] | \[\] |
-| Technique | Long-Tones for Saxophone (Randy Hunter) | \[\] | \[\] |
-| Fingering | McGill Sax School fingering chart | \[\] | \[\] |
-| Sheet music | IMSLP: works for saxophone | \[\] | \[\] |
-
-The full list is in `src/catalog.ts` with `viewUrl` (for the viewer) and
-`downloadUrl` (for the PDF download) per resource.
-
----
-
-## Project structure
-
-```
-saxo-reader/
-├── index.html
-├── public/
-│   └── saxophone.svg
-├── src/
-│   ├── catalog.ts      # resource data, categories, pagination
-│   ├── App.tsx         # routing between catalog + viewer
-│   ├── index.css       # global styles + CSS variables
-│   ├── main.tsx        # entry point
-│   └── vite-env.d.ts
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
----
-
-## Notes on the resources
-
-* Historical method books (de Ville, Mayeur, Klosé) are **public domain** on
-  IMSLP/Internet Archive.
-* Modern method books are often **still copyrighted**; none were included as
-  free PDFs.
-* Manufacturer guides (SELMER, Yamaha) are web articles, not PDFs — the app
-  links to them rather than fabricating a download link.
-* Copyrights vary by jurisdiction for many IMSLP works; the app always
-  surfaces the source's own license note instead of asserting a status.
-
----
-
-## Limitations
-
-* The PDF viewers are the sources' own embedders (IMSLP/Internet Archive),
-  which are sometimes slow; a local PDF library (e.g. PDF.js) could be added
-  later for offline reading.
-* Direct download URLs for some sources (mostly manufacturer web articles)
-  are best-effort; the "Ver" action always works because the source page is
-  reliable.
-
----
-
-*Built with Vite + React + TypeScript.*
+- **MuseScore** responde 403 a los scrapers (10 fichas): se marcan como
+  «Bloquea bots» y se abren en pestaña nueva; su Score Viewer sí funciona en el
+  navegador.
+- **IMSLP** sirve los escaneos tras un anti-bot: la ficha usa la página de la obra
+  (que se incrusta bien y trae su propio botón de descarga) y guarda el enlace
+  `Special:ImagefromIndex`.
+- Los proxies CORS públicos tienen límite de peticiones; si se agotan, el botón
+  de reintento avisa y se usa el enlace de la BBDD.

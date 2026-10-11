@@ -6,9 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:all": "npm run scrape && npm run check:data && npm run build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "deploy:github": "gh-pages -d dist -b main"
+    "scrape": "node scripts/scrape.mjs",
+    "scrape:sources": "node scripts/build-sources.mjs",
+    "check:data": "node scripts/check-data.mjs",
+    "predeploy": "npm run scrape && npm run check:data && npm run build",
+    "deploy:github": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "react": "^19.2.8",

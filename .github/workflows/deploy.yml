@@ -1,0 +1,68 @@
+name: Deploy a GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Permite lanzarlo a mano (p. ej. sólo para refrescar la BBDD del scraping).
+  workflow_dispatch:
+    inputs:
+      scrape:
+        description: "Volver a hacer scraping de todos los enlaces antes de publicar"
+        type: boolean
+        default: false
+  # Refresco semanal de la BBDD: detecta enlaces caídos y PDFs nuevos.
+  schedule:
+    - cron: "0 5 * * 1"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Refrescar la BBDD (scraping)
+        # En un push normal se usa la BBDD incluida en el repo (build rápido y
+        # reproducible); el scraping se hace a mano, en el workflow manual o en
+        # el programado.
+        if: github.event_name == 'schedule' || inputs.scrape == true
+        continue-on-error: true
+        run: npm run scrape
+
+      - name: Comprobar que la BBDD es válida
+        run: npm run check:data
+
+      - name: Build
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
