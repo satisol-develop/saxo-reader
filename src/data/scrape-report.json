@@ -1,684 +1,3350 @@
 {
-  "generatedAt": "2026-10-11T22:50:53.028Z",
-  "total": 84,
+  "generatedAt": "2026-10-12T09:35:28.182Z",
+  "pages": 478,
+  "matchedItems": 142,
   "entries": [
     {
-      "url": "https://imslp.org/wiki/Universal_Saxophone_Method_(Prendiville,_Harry)",
+      "url": "https://sharpelevenmusic.com/saxophone-transcriptions",
+      "status": 0,
+      "items": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://musescore.com/sheetmusic/solo/saxophone-alto",
+      "status": 403,
+      "items": 0,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://musescore.com/sheetmusic/solo/saxophone-tenor",
+      "status": 403,
+      "items": 0,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://scooby-sax.com/transcriptions.aspx",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://jazzsaxophonelessons.com/category/free-downloads/",
+      "status": 429,
+      "items": 0,
+      "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/free-transcriptions.html",
+      "status": 200,
+      "items": 0,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/transcriptions/",
+      "status": 200,
+      "items": 0,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "status": 200,
+      "items": 13,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/New_and_Grand_Method_for_Saxophone_(Mayeur,_Louis_Adolphe)",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://imslp.org/wiki/Universal_Saxophone_Method_(Prendiville,_Harry)",
+      "status": 200,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/Grande_méthode_complète_de_saxophones_(Mayeur,_Louis_Adolphe)",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://bopland.org/home",
+      "status": 200,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/Méthode_complète_des_saxophones_(Klosé,_Hyacinthe_Eléonore)",
       "status": 200,
-      "kind": "page",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://archive.org/details/25EjerciciosDiariosParaSaxofnHKlose",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://randyhunterjazz.com/assets/longtones4sax.pdf",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://tamingthesaxophone.com/lessons/tone-sound/tone-exercises",
-      "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxschoolonline.com/wp-content/uploads/2015/05/McGill-Music-Sax-School-Finger-Chart.pdf",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://www.dansr.com/resources/saxophone-fingering-chart-for-band-directors-music-educators-and-students-by-vandoren-juno-reeds",
+      "url": "https://tamingthesaxophone.com/lessons/tone-sound/tone-exercises",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://www.selmer.fr/en/blogs/infos/entretien-du-saxophone",
       "status": 429,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
-      "url": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/maintenance/",
+      "url": "https://www.dansr.com/resources/saxophone-fingering-chart-for-band-directors-music-educators-and-students-by-vandoren-juno-reeds",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/Category:For_saxophone",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/Category:Scores_featuring_the_alto_saxophone",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://www.free-scores.com/free-sheet-music.php?CATEGORIE=160",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/maintenance/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
-      "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 13,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://archive.org/details/25EjerciciosDiariosParaSaxofnHKlose",
+      "status": 200,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxteacheruk.com/transcriptions/johnny-hodges-papa-knows-transcription.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 2,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/33630425/scores/14347714",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/27397056/scores/5602521",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
-      "repaired": false
-    },
-    {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
-      "status": 200,
-      "kind": "page",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
-      "status": 200,
-      "kind": "page",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://saxteacheruk.com/transcriptions/oleo-rhythm-changes-john-coltrane/oleo-lead-sheet.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
       "repaired": false
     },
     {
       "url": "https://musescore.com/aidanbrown03/solo-transcription-tenor-madness-sonny-rollins-with-john-coltrane",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/oleo-rhythm-changes-john-coltrane/oleo-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?CATEGORIE=160",
+      "status": 200,
+      "items": 0,
+      "blocked": false,
       "repaired": false
     },
     {
       "url": "https://musescore.com/boydogzebra/john-coltrane-solo-transcription-lazy-bird-blue-train",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
-      "repaired": false
-    },
-    {
-      "url": "https://jazzbarisax.com/transcription/",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://www.pepperadams.com/Transcriptions/Unforgettable_Schaefer.pdf",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/26830621/scores/5211482",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/4561226/scores/7768997",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/35998361/scores/9436000",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
+      "repaired": false
+    },
+    {
+      "url": "https://www.pepperadams.com/Transcriptions/Unforgettable_Schaefer.pdf",
+      "status": 200,
+      "items": 0,
+      "blocked": false,
       "repaired": false
     },
     {
       "url": "https://musescore.com/user/33551745/scores/10944049",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
       "url": "https://musescore.com/sheetmusic/solo/saxophone-soprano",
       "status": 403,
-      "kind": "none",
-      "reached": false,
+      "items": 0,
       "blocked": true,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/25_%C3%89tudes_de_m%C3%A9canisme_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://www.randyhunterjazz.com/free-downloads.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://archive.org/details/universalmethodf00villuoft",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://imslp.org/wiki/25_Exercices_journaliers_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
       "status": 200,
-      "kind": "video",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
-      "status": 200,
-      "kind": "video",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
-      "status": 200,
-      "kind": "video",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions",
-      "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 4,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://latouchemusicale.com/en/just-the-two-of-us-saxophone-sheet-music/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://latouchemusicale.com/en/careless-whisper-saxophone-sheet-musi/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://latouchemusicale.com/en/the-pink-panther-saxophone-sheet-music/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://latouchemusicale.com/en/tequila-saxophone-sheet-music/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://latouchemusicale.com/en/baker-street-saxophone-sheet-music/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/easy/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/christmas/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/hymns/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/patriotic/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/celtic/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxophonemusic.org/category/classical/",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://jazzbarisax.com/transcription/",
+      "status": 200,
+      "items": 12,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://www.free-scores.com/free-sheet-music.php?instrument_ID=7000&CATEGORIE=20",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 0,
       "blocked": false,
       "repaired": false
-    },
-    {
-      "url": "https://scooby-sax.com/Transcriptions.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://scooby-sax.com/Transcriptions.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": false
-    },
-    {
-      "url": "https://saxteacheruk.com/transcriptions/sahib-shihab-transcription-straight-no-chaser.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/sahib-shaab-straight-no-chaser-transcription.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": true
     },
     {
       "url": "https://saxteacheruk.com/transcriptions/johnny-hodges-basin-st-blues-transcription.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/sahib-shaab-straight-no-chaser-transcription.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/johnny-hodges-blues-o-mighty-transcription.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-touch-of-your-lips-transcription.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "items": 252,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-how-deep-is-the-ocean-transcription.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-bye-bye-blackbird-transcription.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-shoeshine-boy-transcription.html",
+      "status": 200,
+      "items": 4,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-oh-lady-be-good-transcription.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-all-of-me-transcription.html",
+      "status": 200,
+      "items": 4,
+      "blocked": false,
+      "repaired": true
+    },
+    {
+      "url": "http://www.scooby-sax.com/Online_Lessons.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/Transcription_method.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/Transcriptions.html",
+      "status": 200,
+      "items": 252,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/Tune_Up_Lesson.html",
+      "status": 200,
+      "items": 4,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/Wardell_Gray_Lesson.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/Sonny_Rollins_Lesson.html",
+      "status": 200,
+      "items": 8,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/transcriptions_aspx.aspx",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://www.scooby-sax.com/online_lessons.aspx",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/all-of-me/all-of-me-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/all-the-things-you-are/all-the-things-you-are-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/alone-together/alone-together-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/avalon/avalon-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-free-sheet-music-the-touch-of-your-lips.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-sheet-music-how-deep-is-the-ocean.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ben-webster-transcription-bye-bye-blackbird.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/benny-carter-transcription-jive-at-six.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/bill/bill-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/blue-bossa/blue-bossa-lead-sheet.html",
+      "status": 200,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
       "url": "https://saxteacheruk.com/transcriptions/blues-o-mighty-johnny-hodges-sheet-music.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/johnny-hodges-blues-o-mighty-transcription.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 2,
       "blocked": false,
-      "repaired": true
+      "repaired": false
     },
     {
-      "url": "https://saxteacheruk.com/transcriptions/ben-webster-free-sheet-music-the-touch-of-your-lips.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-touch-of-your-lips-transcription.html",
+      "url": "https://saxteacheruk.com/transcriptions/body-and-soul/body-and-soul-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 1,
       "blocked": false,
-      "repaired": true
+      "repaired": false
     },
     {
-      "url": "https://saxteacheruk.com/transcriptions/ben-webster-sheet-music-how-deep-is-the-ocean.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-how-deep-is-the-ocean-transcription.html",
+      "url": "https://saxteacheruk.com/transcriptions/body-and-soul/body-and-soul-transcription-coleman-hawkins.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 4,
       "blocked": false,
-      "repaired": true
+      "repaired": false
     },
     {
-      "url": "https://saxteacheruk.com/transcriptions/ben-webster-transcription-bye-bye-blackbird.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/ben-webster-bye-bye-blackbird-transcription.html",
+      "url": "https://saxteacheruk.com/transcriptions/cannonball-adderley-transcription-straight-no-chaser.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 2,
       "blocked": false,
-      "repaired": true
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/cant-help-lovin-dat-man/cant-help-lovin-dat-man-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/castle-rock-transcription-al-sears.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/angels-we-have-heard-on-high-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/auld-lang-syne-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/away-in-a-manger-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/carol-of-the-bells-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/deck-the-halls-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/go-tell-it-on-the-mountain-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/god-rest-ye-merry-gentlemen-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/good-king-wenceslas-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/it-came-upon-a-midnight-clear-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/hark-the-herald-angels-sing-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/jingle-bells-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/jolly-old-saint-nicholas-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/o-christmas-tree-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/joy-to-the-world-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/o-come-all-ye-faithful-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/o-come-o-come-emmanuel-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/o-holy-night-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/o-little-town-of-bethlehem-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/silent-night-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/the-first-noel-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/the-holly-and-the-ivy-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/the-twelve-days-of-christmas-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/up-on-the-housetop-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/we-three-kings-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/we-wish-you-a-merry-christmas-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets/what-child-is-this-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/christmas-lead-sheets.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/doxy/doxy-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/earl-bostic-hurricane-blues.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/earl-bostic-thats-the-groovy-thing-part-1.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/earl-bostic-transcription-earl-blows-a-fuse.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/eddie-cleanhead-vinson-cherry-red-blues-transcription.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/embraceable-you/embraceable-you-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/fascinating-rhythm/fascinating-rhythm-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/flying-home-transcription-illinois-jacquet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/frank-foster-transcription-splanky.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/giant-steps/giant-steps-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/have-you-met-miss-jones/have-you-met-miss-jones-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/honeysuckle-rose/honeysuckle-rose-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/how-long-has-this-been-going-on/how-long-has-this-been-going-on-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/i-got-rhythm/i-got-rhythm-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/i-know-that-you-know/i-know-that-you-know-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/i-want-to-be-happy/i-want-to-be-happy-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/indiana/indiana-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/interview-with-marty-khan-about-sonny-fortune-from-now-on.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/it-could-happen-to-you/it-could-happen-to-you-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/just-a-dream-eddie-cleanhead-vinson-transcription.html",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/ive-got-a-crush-on-you/ive-got-a-crush-on-you-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
     },
     {
       "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-all-of-me.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-all-of-me-transcription.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
-      "repaired": true
-    },
-    {
-      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-shoeshine-boy.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-shoeshine-boy-transcription.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": true
+      "repaired": false
     },
     {
       "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-oh-lady-be-good.html",
-      "originalUrl": "https://saxteacheruk.com/transcriptions/lester-young-oh-lady-be-good-transcription.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
-      "blocked": false,
-      "repaired": true
-    },
-    {
-      "url": "https://scooby-sax.com/Transcriptions.html",
-      "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-shoeshine-boy.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 4,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/lester-young-transcription-way-down-yonder-in-new-orleans.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/limehouse-blues/limehouse-blues-lead-sheet.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/linger-awhile/linger-awhile-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/liza/liza-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/love-me-or-leave-me/love-me-or-leave-me-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/look-for-the-silver-lining/look-for-the-silver-lining-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/mack-the-knife/mack-the-knife-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/makin-whoopee/makin-whoopee-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/mean-to-me/mean-to-me-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/more-than-you-know/more-than-you-know-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/my-blue-heaven/my-blue-heaven-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/naima/naima-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/ol-man-river/ol-man-river-lead-sheet.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/oleo-transcription-john-coltrane-rhythm-changes.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 4,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "https://scooby-sax.com/Transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/on-green-dolphin-street/on-green-dolphin-street-lead-sheet.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/real-book-free-lead-sheet-pdf-downloads.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 1,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/rose-room/rose-room-lead-sheet.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/s-wonderful/s-wonderful-lead-sheet.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 3,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/sahib-shihab-transcription-straight-no-chaser.html",
       "status": 200,
-      "kind": "pdf",
-      "reached": true,
+      "items": 2,
       "blocked": false,
       "repaired": false
     },
     {
-      "url": "http://ousaxstudio.weebly.com/sample-transcriptions.html",
+      "url": "https://saxteacheruk.com/transcriptions/sandu/sandu-lead-sheet.html",
       "status": 200,
-      "kind": "page",
-      "reached": true,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/so-what/so-what-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/somebody-loves-me/somebody-loves-me-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/solar/solar-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/someone-to-watch-over-me/someone-to-watch-over-me-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/sonny-rollins-transcription-newks-fadeaway.html",
+      "status": 200,
+      "items": 4,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/soon/soon-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/straight-no-chaser/straight-no-chaser-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/tea-for-two/tea-for-two-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/tenderly/tenderly-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/tenor-madness/tenor-madness-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/the-man-i-love/the-man-i-love-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/there-will-never-be-another-you/there-will-never-be-another-you-lead-sheet.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/why-was-i-born/why-was-i-born-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://saxteacheruk.com/transcriptions/without-a-song/without-a-song-lead-sheet.html",
+      "status": 200,
+      "items": 3,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/good-time-boogie/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/jump-man-jump/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blue-bossa/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/unchain-my-heart/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/simply-the-best/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/always-say-goodbye/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/splanky/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/killer-joe-hubbard/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/killer-joe-laws/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/keep-the-customer-satisfied/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/stella-by-starlight/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/flamenco-sketches/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/take-the-coltrane/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blues-on-sunday/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/killer-joe-redman/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/straight-no-chaser-live-2010/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/straight-street/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/respect/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/i-will-always-love-you/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/were-in-this-love-together/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/walkin/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/cold-sweat/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/soul-power-92/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/sing-a-simple-song/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/pick-up-the-pieces/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/moose-the-mooche/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/stolen-moments/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/hand-clappin/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/buona-sera/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/airegin/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/st-thomas/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/soul-shadows/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/free-fall-cd/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lost-in-html-cd/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/mellow-cd/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/bizznezz-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blacbub-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/bluesby-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/christmas-medley-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/conchology-remastered-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/evident-remastered-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/four-odd-reload-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funalez-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funk-habit-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funkslaw-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lost-in-html-22-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/medley-christmas-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/o-come-all-ye-faithful-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/sambite-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/saxtail-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/soul-face-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/the-first-noel-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/twisty-single/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/free-fall-bb/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/light-hearted-bb/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/mellow-bb/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/songbook-collection/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/ave-maria/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/o-come-all-ye-faithful-adeste-fideles/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/sonata-in-eb-major/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/the-piece-for-alto-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/the-first-noel/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/agua-de-beber-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/besame-mucho-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/bizznezz-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blacbub-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/bluesby-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/done-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/four-odd-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/free-fall-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funalez-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funk-habit-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/funkslaw-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lost-in-html-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lost-in-html-22-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/mother-popcorn-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/replay-blues-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/sambite-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/saxtail-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/the-shadow-of-your-smile-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/twisty-combo/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/air-on-a-g-string-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/all-of-me-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/always-my-love-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/ballad-for-g-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/birdland-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/black-orpheus-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blue-bossa-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/blues-no-1-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/conchology-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/crossreference-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/eleanor-rigby-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/evident-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/four-odd-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/four-to-go-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/freedom-piece-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/green-lobster-dream-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/here-comes-the-sun-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/high-society-march-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/marche-funebre-d-une-marionnette-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/marche-nuptiale-de-lohengrin-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/la-cucaracha-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/la-cumparsita-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/little-brown-jug-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lil-darlin-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/lost-in-html-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/manhattan-beach-march-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/mellow-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/new-york-new-york-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/summertime-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/the-entertainer-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/u-krusevo-ogin-gori-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/wedding-march-felix-mendelssohn-bartholdy-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/when-the-saints-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/christmas-medley-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/frosty-the-snowman-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/have-yourself-a-merry-little-christmas-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/let-it-snow-let-it-snow-let-it-snow-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/medley-christmas-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/santa-claus-is-comin-to-town-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/silent-night-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.zdenkoivanusic.com/sdm_downloads/white-christmas-sax4/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/jazz-resources.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/saxophone-repertoire.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/listenwatch.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://ousaxstudio.weebly.com/tunes-to-know.html",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/top-5-jazz-alto-players",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/jazz-tenor-saxophone",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/king-curtis",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/saxophone-lee-allen",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://tamingthesaxophone.com/saxophone/players/blues-saxophone",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/Download-PDF-Sheet-Music-partition-vierge.htm",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/Download-PDF-Sheet-Music-saxophones.htm",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=2&compositeur=claude-debussy",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=3&compositeur=nikolai-rimsky-korsakov",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=6&compositeur=scott-joplin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=5&compositeur=scott-joplin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=7&compositeur=scott-joplin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=8&compositeur=scott-joplin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=10&compositeur=ludwig-van-beethoven",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=1&compositeur=johann-pachelbel",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=12&compositeur=frederic-chopin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=13&compositeur=franz-peter-schubert",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=17&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=9&compositeur=wolfgang-amadeus-mozart",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=11&compositeur=ludwig-van-beethoven",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=16&compositeur=frederic-chopin",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=19&compositeur=adolphe-charles-adam",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=18&compositeur=adolphe-charles-adam",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=23&compositeur=wolfgang-amadeus-mozart",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=25&compositeur=joachim-raff",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=20&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=26&compositeur=maistre-gosse",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=27&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=21&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=28&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=24&compositeur=camille-saint-saens",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://archive.org/details/universalmethodf00villuoft",
+      "status": 200,
+      "items": 10,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=29&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=30&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=31&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://www.free-scores.com/free-sheet-music.php?partition_centrale=32&compositeur=jean-sebastien-bach",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/new-ronnie-cuber-transcription/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/finally-a-cecil-payne-transcription/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/new-videos-check-out-the-transcriptions/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/good-news-and-new-transcriptions/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/transcription/",
+      "status": 200,
+      "items": 12,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/the-pink-panther-saxophone-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/tequila-saxophone-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/careless-whisper-saxophone-sheet-musi/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/baker-street-saxophone-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/just-the-two-of-us-partition-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/just-the-two-of-us-saxophone-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/the-pink-panther-partition-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://jazzbarisax.com/new-transcriptions/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/baker-street-partition-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/careless-whisper-partition-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/tequila-partition-saxophone/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/ja/resources/guide-to-transform-saxophone-audio-into-accurate-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/en/resources/guide-to-transform-saxophone-audio-into-accurate-sheet-music/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "https://latouchemusicale.com/fr/ebooks/guide-pdf-transcrire-solos-saxophone-partitions/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/a-tisket-a-tasket/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/abide-with-me/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/alouette/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/amazing-grace/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/america/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/america-the-beautiful/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/annie-laurie/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/auld-lang-syne/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/aura-lee/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/away-in-a-manger/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/barbara-allen/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/battle-hymn-of-the-republic/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/beautiful-dreamer/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/believe-me-if-all-those-endearing-young-charms/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/bingo/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/blue-bells-of-scotland/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/the-boars-head-carol/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/bonnie-dundee/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/buffalo-gals/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/c/camptown-races/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/c/christians-awake/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/c/the-cherry-tree-carol/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/londonderry-air/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/d/deck-the-hall/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/d/dixie/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/d/drink-to-me-only-with-thine-eyes/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/e/eine-kleine-nachtmusik/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/flow-gently-sweet-afton/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/for-hes-a-jolly-good-fellow/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/frere-jacques/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/the-farmer-in-the-dell/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/the-first-noel/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/g/god-rest-you-merry-gentlemen/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/g/good-king-wenceslas/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/g/greensleeves/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/hail-to-the-chief/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/hark-the-herald-angels-sing/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/her-bright-smile-haunts-me-still/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/holy-holy-holy/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/home-on-the-range/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/the-holly-and-the-ivy/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/hot-cross-buns/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/i-cannot-sing-the-old-songs/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/ive-been-working-on-the-railroad/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/in-the-sweet-by-and-by/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/the-irish-washerwoman/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/it-came-upon-the-midnight-clear/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/itsy-bitsy-spider/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/j/jingle-bells/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/j/john-anderson-my-jo/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/j/joy-to-the-world/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/k/kathleen-mavourneen/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/k/the-keel-row/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/la-marseillaise/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/little-bunny-foo-foo/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/loch-lomond/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/london-bridge/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/mary-had-a-little-lamb/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/a-mighty-fortress-is-our-god/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/the-minstrel-boy/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/my-bonnie-lies-over-the-ocean/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/my-old-dog-tray/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/my-old-kentucky-home/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/n/nearer-my-god-to-thee/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/n/nobody-knows-the-trouble-ive-seen/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/o-christmas-tree/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/o-come-all-ye-faithful/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/o-little-town-of-bethlehem/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/oh-my-darling-clementine/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/o-holy-night/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/ode-to-joy/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/oh-susanna/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/old-folks-at-home/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/old-macdonald-had-a-farm/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/old-rosin-the-beau/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/onward-christian-soldiers/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/p/the-parting-glass/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/p/pop-goes-the-weasel/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/r/the-rose-of-allendale/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/r/row-row-row-your-boat/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/scarborough-fair/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/shave-and-a-haircut/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/shell-be-coming-round-the-mountain/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/silent-night/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/skip-to-my-lou/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/swing-low-sweet-chariot/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/the-star-spangled-banner/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/taps/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/tom-dooley/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/three-blind-mice/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/turkey-in-the-straw/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/twinkle-twinkle-little-star/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/u/up-on-the-housetop/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/w/we-three-kings-of-orient-are/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/v/vauxhall-dance/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/w/we-wish-you-a-merry-christmas/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/w/the-wearing-of-the-green/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/y/yankee-doodle/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/y/ye-banks-and-braes-o-bonnie-doon/",
+      "status": 200,
+      "items": 2,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/a/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/b/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/c/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/d/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/e/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/f/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/g/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/h/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/i/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/j/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/k/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/l/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/m/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/n/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/o/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/p/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/r/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/s/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/t/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/u/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/v/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/w/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://saxophonemusic.org/title/y/",
+      "status": 200,
+      "items": 1,
+      "blocked": false,
+      "repaired": false
+    },
+    {
+      "url": "http://riffspot.com/",
+      "status": 200,
+      "items": 22,
       "blocked": false,
       "repaired": false
     }

@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Caché del rastreo (regenerable con `npm run scrape`)
+scripts/crawl-cache.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

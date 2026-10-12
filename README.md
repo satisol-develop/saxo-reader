@@ -14,8 +14,12 @@ buscar, filtrar por proyecto/tipo/instrumento, ver dentro de la app y descargar.
 ## Cómo funciona
 
 ```
-scripts/sources.json          lista curada de enlaces (semilla, editable a mano)
-        │  npm run scrape
+saxophone-transcriptions-resources.md   tu biblioteca (piezas por proyecto)
+        │  npm run scrape:sources
+        ▼
+scripts/sources.json     páginas a visitar + scripts/library.json (tus piezas)
+        │  npm run scrape            (crawl → scripts/crawl-cache.json)
+        │  npm run scrape -- --from-cache   re-empareja sin salir a la red
         ▼
 src/data/transcriptions.json  BBDD: estado HTTP + medio resuelto + candidatos
         │  npm run build
@@ -42,20 +46,36 @@ dist/                         app estática (GitHub Pages)
    guarda el resultado en `localStorage`. Como el navegador no puede leer
    orígenes ajenos, se usa una cadena de proxies CORS públicos
    (allorigins → codetabs → jina) o el tuyo propio con `VITE_SCRAPE_PROXY`.
-3. **Visor por tipo**: PDF e imágenes en `<iframe>`/`<img>`, vídeos embebidos, y
+3. **Emparejamiento con tu lista**: cada pieza del markdown se busca en las
+   fichas rastreadas (tema primero, solista para desempatar, tonalidad según el
+   instrumento y, como red, el nombre del fichero). Sin coincidencia, la pieza
+   entra igualmente en el buscador apuntando a su página, lista para reintentar.
+4. **Visor por tipo**: PDF e imágenes en `<iframe>`/`<img>`, vídeos embebidos, y
    aviso + botón cuando el sitio prohíbe el iframe (MuseScore, free-scores,
    Taming the Saxophone, La Touche Musicale) o bloquea a los bots (403/429).
+5. **Leer de verdad**: el visor tiene **pantalla completa** (Fullscreen API y, si
+   el navegador no la concede, «modo teatro» a pantalla completa dentro de la
+   app), **zoom** para PDF (hash `#zoom=`) e imágenes, y atajos: `F` pantalla
+   completa, `+`/`−`/`0` zoom, `Esc` salir.
 
 ---
 
-## Filtros del catálogo
+## Buscar y filtrar
 
-- **Proyecto** (sitio de origen; 17 proyectos, con su número de recursos).
-- **Tipo** de medio: PDF, Imagen, Vídeo, Página.
-- **Categoría**: PDF, Solo alto/tenor/bari/soprano, Etudes/intérêts.
-- **Instrumento**: Alto, Tenor, Bari, Soprano.
-- Búsqueda por título, solista, proyecto o categoría, y opción *«Incluir enlaces
-  caídos»*.
+**Atajos de un clic**: Todo · PDF listos · De tu lista · Vídeos · Estudios ·
+Pendientes.
+
+El panel *Filtros* agrupa las opciones por sentido:
+
+- **Fichero**: PDF, Imagen, Vídeo, Página (con su recuento) y «solo con fichero».
+- **Saxofón**: instrumento y tonalidad legible (Concierto C, Sib, Mib, Fa).
+- **Proyecto**: las 21 webs rastreadas, ordenadas por número de piezas.
+- **Tipo de recurso**: Solo, Estudio/Método, Partitura, Guía/Recurso, Índice.
+- **Estado**: ★ De tu lista, sin fichero (abre fuera), incluir enlaces caídos.
+
+Búsqueda por tema, solista, proyecto o tonalidad (todas las palabras, en
+cualquier orden), orden **Recomendado** por defecto (tus piezas y lo que se abre
+aquí primero) y los filtros activos como etiquetas quitables.
 
 ---
 
@@ -66,9 +86,10 @@ npm install
 npm run dev            # servidor de desarrollo
 
 npm run scrape         # visita todas las fuentes y reescribe la BBDD
-npm run scrape -- --only imslp.org      # sólo un dominio (no borra el resto)
-npm run scrape -- --limit 5 --delay 0   # prueba rápida
-npm run scrape:sources # regenera scripts/sources.json desde el catálogo a mano
+npm run scrape -- --from-cache        # re-empareja en segundos con el último crawl
+npm run scrape -- --only imslp.org    # sólo un dominio (no borra el resto)
+npm run scrape -- --limit 5 --delay 0 # prueba rápida
+npm run scrape:sources # regenera sources.json y library.json desde el markdown
 npm run check:data     # valida la BBDD (lo usa el CI antes de compilar)
 
 npm run build          # typecheck + bundle a dist/

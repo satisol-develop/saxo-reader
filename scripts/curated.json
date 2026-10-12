@@ -1,0 +1,845 @@
+{
+  "generatedAt": "2026-10-11T22:32:40.376Z",
+  "resources": [
+    {
+      "id": "imslp-universal-method-for-the-saxophone-paul-de-ville",
+      "title": "Universal Method for the Saxophone — Paul de Ville",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Complete 19th-century method for the saxophone; accessible and pedagogically thorough.",
+      "license": "Public domain (IMSLP / Internet Archive)",
+      "sourceUrl": "https://imslp.org/wiki/Universal_Saxophone_Method_(Prendiville,_Harry)"
+    },
+    {
+      "id": "imslp-new-and-grand-method-for-saxophone-louis-adolphe-mayeur",
+      "title": "New and Grand Method for Saxophone — Louis Adolphe Mayeur",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Historical English-language method for the saxophone.",
+      "license": "Public domain (IMSLP)",
+      "sourceUrl": "https://imslp.org/wiki/New_and_Grand_Method_for_Saxophone_(Mayeur,_Louis_Adolphe)"
+    },
+    {
+      "id": "imslp-grande-methode-complete-de-saxophones-louis-adolphe-mayeur",
+      "title": "Grande méthode complète de saxophones — Louis Adolphe Mayeur",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "1868 French method of complete saxophone study.",
+      "license": "Public domain (IMSLP)",
+      "sourceUrl": "https://imslp.org/wiki/Grande_méthode_complète_de_saxophones_(Mayeur,_Louis_Adolphe)"
+    },
+    {
+      "id": "imslp-methode-complete-des-saxophones-hyacinthe-klose",
+      "title": "Méthode complète des saxophones — Hyacinthe Klosé",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "1866 French method dedicated to Adolphe Sax.",
+      "license": "Public domain (IMSLP)",
+      "sourceUrl": "https://imslp.org/wiki/Méthode_complète_des_saxophones_(Klosé,_Hyacinthe_Eléonore)"
+    },
+    {
+      "id": "archive-25-ejercicios-diarios-para-saxofon-klose-spanish",
+      "title": "25 Ejercicios Diarios Para Saxofón — Klosé (Spanish)",
+      "project": "Internet Archive",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Spanish-language daily exercises for saxophone.",
+      "license": "Check rights status on Internet Archive listing",
+      "sourceUrl": "https://archive.org/details/25EjerciciosDiariosParaSaxofnHKlose"
+    },
+    {
+      "id": "randyhunterjazz-long-tones-for-saxophone-randy-hunter",
+      "title": "Long-Tones for Saxophone — Randy Hunter",
+      "project": "Randy Hunter Jazz",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Free direct PDF of long-tone exercises for tone development.",
+      "license": "Free for personal use (author)",
+      "sourceUrl": "https://randyhunterjazz.com/assets/longtones4sax.pdf"
+    },
+    {
+      "id": "tamingthesaxophone-saxophone-tone-and-sound-exercises",
+      "title": "Saxophone tone and sound exercises",
+      "project": "Taming the Saxophone",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Online lesson on long tones, dynamics, articulation, vibrato and octave slurs.",
+      "license": "Web article (Taming the Saxophone)",
+      "sourceUrl": "https://tamingthesaxophone.com/lessons/tone-sound/tone-exercises"
+    },
+    {
+      "id": "saxschoolonline-saxophone-fingering-chart-mcgill-music-sax-school",
+      "title": "Saxophone fingering chart — McGill Music Sax School",
+      "project": "McGill Sax School",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Direct PDF chart covering standard-range and altissimo fingerings.",
+      "license": "Free (McGill Music Sax School)",
+      "sourceUrl": "https://saxschoolonline.com/wp-content/uploads/2015/05/McGill-Music-Sax-School-Finger-Chart.pdf"
+    },
+    {
+      "id": "dansr-vandoren-juno-fingering-chart",
+      "title": "Vandoren JUNO fingering chart",
+      "project": "Vandoren / D'Addario",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Reputable educator-facing free fingering chart (download via the page button).",
+      "license": "Free (Vandoren / dansr.com)",
+      "sourceUrl": "https://www.dansr.com/resources/saxophone-fingering-chart-for-band-directors-music-educators-and-students-by-vandoren-juno-reeds"
+    },
+    {
+      "id": "selmer-how-to-maintain-a-saxophone-henri-selmer-paris",
+      "title": "How to maintain a saxophone — Henri SELMER Paris",
+      "project": "Selmer Paris",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Manufacturer guidance on swabbing, wiping and storing the instrument.",
+      "license": "Manufacturer web content",
+      "sourceUrl": "https://www.selmer.fr/en/blogs/infos/entretien-du-saxophone"
+    },
+    {
+      "id": "yamaha-care-and-maintenance-of-a-saxophone-yamaha",
+      "title": "Care and maintenance of a saxophone — Yamaha",
+      "project": "Yamaha",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Yamaha saxophone maintenance guide.",
+      "license": "Manufacturer web content",
+      "sourceUrl": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/maintenance/"
+    },
+    {
+      "id": "imslp-imslp-works-for-saxophone-catalog",
+      "title": "IMSLP: works for saxophone (catalog)",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Browseable catalog of saxophone works with downloadable score and part files.",
+      "license": "Varies by work — check each item's jurisdiction notice",
+      "sourceUrl": "https://imslp.org/wiki/Category:For_saxophone"
+    },
+    {
+      "id": "imslp-imslp-scores-featuring-alto-saxophone",
+      "title": "IMSLP: scores featuring alto saxophone",
+      "project": "IMSLP",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Alto-saxophone repertoire including solo works and ensemble pieces.",
+      "license": "Varies by work — check each item's jurisdiction notice",
+      "sourceUrl": "https://imslp.org/wiki/Category:Scores_featuring_the_alto_saxophone"
+    },
+    {
+      "id": "free-scores-free-scores-com-saxophone-catalog",
+      "title": "Free-scores.com saxophone catalog",
+      "project": "Free-scores.com",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Large catalog advertising free saxophone sheet music and PDF downloads.",
+      "license": "Varies per item — check the individual terms",
+      "sourceUrl": "https://www.free-scores.com/free-sheet-music.php?CATEGORIE=160"
+    },
+    {
+      "id": "ousaxstudio-charles-mcpherson-blues-for-chuck-alto-solo",
+      "title": "Charles McPherson — \"Blues for Chuck\" (alto solo)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free PDF alto solo with commentary from Ohio University saxophone studio.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-cannonball-adderley-cherokee-alto-solo",
+      "title": "Cannonball Adderley — \"Cherokee\" (alto solo)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free PDF alto solo transcription with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "saxteacheruk-johnny-hodges-papa-knows-alto-solo",
+      "title": "Johnny Hodges — \"Papa Knows\" (alto solo)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free PDF transposed for E-flat alto by SaxTeacher UK.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/johnny-hodges-papa-knows-transcription.html"
+    },
+    {
+      "id": "musescore-charlie-parker-donna-lee-solo-alto",
+      "title": "Charlie Parker — \"Donna Lee\" solo (alto)",
+      "project": "MuseScore",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free MuseScore transcription of Parker's solo, playable in the browser.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/33630425/scores/14347714"
+    },
+    {
+      "id": "musescore-charlie-parker-now-s-the-time-solo-alto",
+      "title": "Charlie Parker — \"Now's the Time\" solo (alto)",
+      "project": "MuseScore",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free MuseScore transcription playable in the browser.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/27397056/scores/5602521"
+    },
+    {
+      "id": "ousaxstudio-eric-alexander-i-can-dream-can-t-i-tenor-solo",
+      "title": "Eric Alexander — \"I Can Dream, Can't I?\" (tenor solo)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free PDF tenor solo with commentary from Ohio University.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-walt-weiskopf-a-time-for-love-tenor-solo",
+      "title": "Walt Weiskopf — \"A Time for Love\" (tenor solo)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free PDF tenor solo with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "saxteacheruk-john-coltrane-oleo-tenor",
+      "title": "John Coltrane — \"Oleo\" (tenor)",
+      "project": "SaxTeacher UK",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free Coltrane chorus PDF in B-flat and E-flat, plus chord changes.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/oleo-rhythm-changes-john-coltrane/oleo-lead-sheet.html"
+    },
+    {
+      "id": "musescore-sonny-rollins-tenor-madness-solo-tenor",
+      "title": "Sonny Rollins — \"Tenor Madness\" solo (tenor)",
+      "project": "MuseScore",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free MuseScore transcription playable in the browser.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/aidanbrown03/solo-transcription-tenor-madness-sonny-rollins-with-john-coltrane"
+    },
+    {
+      "id": "musescore-john-coltrane-lazy-bird-solo-tenor",
+      "title": "John Coltrane — \"Lazy Bird\" solo (tenor)",
+      "project": "MuseScore",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free MuseScore transcription playable in the browser.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/boydogzebra/john-coltrane-solo-transcription-lazy-bird-blue-train"
+    },
+    {
+      "id": "jazzbarisax-jazzbarisax-bari-solo-collection-189-transcriptions",
+      "title": "JazzBariSax — bari solo collection (189+ transcriptions)",
+      "project": "JazzBariSax",
+      "category": "Solo bari",
+      "instrument": "Bari",
+      "description": "Large baritone-jazz transcription archive with PDFs for Pepper Adams, Harry Carney, Serge Chaloff and more.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://jazzbarisax.com/transcription/"
+    },
+    {
+      "id": "pepperadams-pepper-adams-unforgettable-bari",
+      "title": "Pepper Adams — \"Unforgettable\" (bari)",
+      "project": "Pepper Adams",
+      "category": "Solo bari",
+      "instrument": "Bari",
+      "description": "Free PDF bari solo transcription.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://www.pepperadams.com/Transcriptions/Unforgettable_Schaefer.pdf"
+    },
+    {
+      "id": "musescore-leo-pellegrino-moanin-bari-solo",
+      "title": "Leo Pellegrino — \"Moanin'\" bari solo",
+      "project": "MuseScore",
+      "category": "Solo bari",
+      "instrument": "Bari",
+      "description": "Free MuseScore transcription playable in the browser.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/26830621/scores/5211482"
+    },
+    {
+      "id": "musescore-john-coltrane-in-a-sentimental-mood-solo-soprano",
+      "title": "John Coltrane — \"In a Sentimental Mood\" solo (soprano)",
+      "project": "MuseScore",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free MuseScore transcription of Coltrane's theme and solo for soprano.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/4561226/scores/7768997"
+    },
+    {
+      "id": "musescore-john-coltrane-central-park-west-soprano",
+      "title": "John Coltrane — \"Central Park West\" (soprano)",
+      "project": "MuseScore",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free MuseScore arrangement for soprano saxophone.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/35998361/scores/9436000"
+    },
+    {
+      "id": "musescore-john-coltrane-my-favorite-things-soprano",
+      "title": "John Coltrane — \"My Favorite Things\" (soprano)",
+      "project": "MuseScore",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free MuseScore arrangement for soprano saxophone.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/user/33551745/scores/10944049"
+    },
+    {
+      "id": "musescore-musescore-soprano-solo-catalogue",
+      "title": "MuseScore soprano solo catalogue",
+      "project": "MuseScore",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Browseable catalogue of soprano saxophone solo transcriptions on MuseScore.",
+      "license": "User-transcribed (check rights)",
+      "sourceUrl": "https://musescore.com/sheetmusic/solo/saxophone-soprano"
+    },
+    {
+      "id": "imslp-klose-25-etudes-de-mecanisme-saxophone",
+      "title": "Klosé — 25 Études de mécanisme (saxophone)",
+      "project": "IMSLP",
+      "category": "Etudes/intérêts",
+      "instrument": null,
+      "description": "Classic set of 25 mechanism études for saxophone.",
+      "license": "Public domain (IMSLP)",
+      "sourceUrl": "https://imslp.org/wiki/25_%C3%89tudes_de_m%C3%A9canisme_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)"
+    },
+    {
+      "id": "randyhunterjazz-randy-hunter-free-jazz-etudes-alto-bari-tenor",
+      "title": "Randy Hunter — free jazz etudes (alto/bari/tenor)",
+      "project": "Randy Hunter Jazz",
+      "category": "Etudes/intérêts",
+      "instrument": null,
+      "description": "Free PDFs of jazz etudes for alto, bari and tenor with audio.",
+      "license": "Free for personal use (author)",
+      "sourceUrl": "https://www.randyhunterjazz.com/free-downloads.html"
+    },
+    {
+      "id": "archive-universal-method-for-the-saxophone-full-method-book",
+      "title": "Universal Method for the Saxophone (full method book)",
+      "project": "Internet Archive",
+      "category": "Etudes/intérêts",
+      "instrument": null,
+      "description": "Full 322-page public-domain method book; browser-readable on Internet Archive.",
+      "license": "Public domain (Internet Archive)",
+      "sourceUrl": "https://archive.org/details/universalmethodf00villuoft"
+    },
+    {
+      "id": "imslp-klose-25-exercices-journaliers-pour-le-saxophone",
+      "title": "Klosé — 25 Exercices journaliers pour le Saxophone",
+      "project": "IMSLP",
+      "category": "Etudes/intérêts",
+      "instrument": null,
+      "description": "Daily exercises for saxophone; serves as short solo-like study pieces.",
+      "license": "Public domain (IMSLP)",
+      "sourceUrl": "https://imslp.org/wiki/25_Exercices_journaliers_pour_le_Saxophone_(Klosé,_Hyacinthe_Eléonore)"
+    },
+    {
+      "id": "tamingthesaxophone-lester-young-boogie-woogie-blues-solo",
+      "title": "Lester Young — \"Boogie Woogie\" (blues solo)",
+      "project": "Taming the Saxophone",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Analysis of Lester Young's blues solo focusing on major/minor-third contrast.",
+      "license": "Web article (Taming the Saxophone)",
+      "sourceUrl": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions"
+    },
+    {
+      "id": "tamingthesaxophone-lee-allen-walking-with-mr-lee-blues-solo",
+      "title": "Lee Allen — \"Walking With Mr. Lee\" (blues solo)",
+      "project": "Taming the Saxophone",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Video score and analysis of Lee Allen's blues solo.",
+      "license": "Web article (Taming the Saxophone)",
+      "sourceUrl": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions"
+    },
+    {
+      "id": "tamingthesaxophone-lee-allen-slipping-and-sliding-blues-solo",
+      "title": "Lee Allen — \"Slipping and Sliding\" (blues solo)",
+      "project": "Taming the Saxophone",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Video score and bar-by-bar analysis of Lee Allen's blues solo.",
+      "license": "Web article (Taming the Saxophone)",
+      "sourceUrl": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions"
+    },
+    {
+      "id": "tamingthesaxophone-harry-simoneaux-blues-solo-cajun-swamp-pop",
+      "title": "Harry Simoneaux — blues solo (Cajun/swamp-pop)",
+      "project": "Taming the Saxophone",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Country-leaning Cajun/swamp-pop solo with chord-tone basis and chromatic passing notes.",
+      "license": "Web article (Taming the Saxophone)",
+      "sourceUrl": "https://tamingthesaxophone.com/saxophone/players/blues-transcriptions"
+    },
+    {
+      "id": "latouchemusicale-just-the-two-of-us-saxophone",
+      "title": "Just The Two Of Us — Saxophone",
+      "project": "La Touche Musicale",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy saxophone sheet music; Bill Withers and Grover Washington Jr.",
+      "license": "Easy sheet music (La Touche Musicale)",
+      "sourceUrl": "https://latouchemusicale.com/en/just-the-two-of-us-saxophone-sheet-music/"
+    },
+    {
+      "id": "latouchemusicale-careless-whisper-saxophone",
+      "title": "Careless Whisper — Saxophone",
+      "project": "La Touche Musicale",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy saxophone sheet music; George Michael; pop.",
+      "license": "Easy sheet music (La Touche Musicale)",
+      "sourceUrl": "https://latouchemusicale.com/en/careless-whisper-saxophone-sheet-musi/"
+    },
+    {
+      "id": "latouchemusicale-the-pink-panther-saxophone",
+      "title": "The Pink Panther — Saxophone",
+      "project": "La Touche Musicale",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy saxophone sheet music; Henry Mancini.",
+      "license": "Easy sheet music (La Touche Musicale)",
+      "sourceUrl": "https://latouchemusicale.com/en/the-pink-panther-saxophone-sheet-music/"
+    },
+    {
+      "id": "latouchemusicale-tequila-saxophone",
+      "title": "Tequila — Saxophone",
+      "project": "La Touche Musicale",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy saxophone sheet music; Danny Flores; rock.",
+      "license": "Easy sheet music (La Touche Musicale)",
+      "sourceUrl": "https://latouchemusicale.com/en/tequila-saxophone-sheet-music/"
+    },
+    {
+      "id": "latouchemusicale-baker-street-saxophone",
+      "title": "Baker Street — Saxophone",
+      "project": "La Touche Musicale",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy saxophone sheet music; Gerry Rafferty; rock.",
+      "license": "Easy sheet music (La Touche Musicale)",
+      "sourceUrl": "https://latouchemusicale.com/en/baker-street-saxophone-sheet-music/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-easy-songs",
+      "title": "Saxophonemusic.org — Easy songs",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Easy beginner repertoire: A-Tisket, A-Tasket; Twinkle, Twinkle, Little Star, etc.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/easy/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-christmas",
+      "title": "Saxophonemusic.org — Christmas",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Christmas carols: Silent Night, O Holy Night, Jingle Bells, etc.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/christmas/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-hymns",
+      "title": "Saxophonemusic.org — Hymns",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Hymns: Amazing Grace, Abide with Me, Holy, Holy, Holy, etc.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/hymns/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-patriotic",
+      "title": "Saxophonemusic.org — Patriotic",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Patriotic songs: The Star-Spangled Banner, America the Beautiful, Yankee Doodle, etc.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/patriotic/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-celtic",
+      "title": "Saxophonemusic.org — Celtic",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Celtic/Irish folk: Loch Lomond, The Parting Glass, Auld Lang Syne, etc.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/celtic/"
+    },
+    {
+      "id": "saxophonemusic-saxophonemusic-org-classical",
+      "title": "Saxophonemusic.org — Classical",
+      "project": "Saxophonemusic.org",
+      "category": "PDF",
+      "instrument": null,
+      "description": "Classical pieces: Eine Kleine Nachtmusic, Ode to Joy.",
+      "license": "Free sheet music (Saxophonemusic.org)",
+      "sourceUrl": "https://saxophonemusic.org/category/classical/"
+    },
+    {
+      "id": "free-scores-free-scores-com-saxophone-catalog-sheet-music",
+      "title": "Free-scores.com — Saxophone catalog (sheet music)",
+      "project": "Free-scores.com",
+      "category": "PDF",
+      "instrument": null,
+      "description": "111 saxophone sheet music results with PDF, MP3, MIDI and video formats.",
+      "license": "Varies per item — check individual terms",
+      "sourceUrl": "https://www.free-scores.com/free-sheet-music.php?instrument_ID=7000&CATEGORIE=20"
+    },
+    {
+      "id": "scooby-sax-charlie-parker-confirmation-solo-alto",
+      "title": "Charlie Parker — \"Confirmation\" solo (alto)",
+      "project": "Scooby Sax",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Charlie Parker's solo in B-flat and E-flat.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-charlie-parker-moose-the-mooche-solo-alto",
+      "title": "Charlie Parker — \"Moose the Mooche\" solo (alto)",
+      "project": "Scooby Sax",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Charlie Parker's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "saxteacheruk-sahib-shihab-straight-no-chaser-solo-alto",
+      "title": "Sahib Shihab — \"Straight No Chaser\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Sahib Shihab's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/sahib-shaab-straight-no-chaser-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-johnny-hodges-basin-st-blues-solo-alto",
+      "title": "Johnny Hodges — \"Basin St Blues\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Johnny Hodges' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/johnny-hodges-basin-st-blues-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-johnny-hodges-blues-o-mighty-solo-alto",
+      "title": "Johnny Hodges — \"Blues O'Mighty\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Johnny Hodges' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/johnny-hodges-blues-o-mighty-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-ben-webster-the-touch-of-your-lips-solo-alto",
+      "title": "Ben Webster — \"The Touch of Your Lips\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Ben Webster's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/ben-webster-touch-of-your-lips-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-ben-webster-how-deep-is-the-ocean-solo-alto",
+      "title": "Ben Webster — \"How Deep Is the Ocean?\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Ben Webster's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/ben-webster-how-deep-is-the-ocean-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-ben-webster-bye-bye-blackbird-solo-alto",
+      "title": "Ben Webster — \"Bye Bye Blackbird\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Ben Webster's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/ben-webster-bye-bye-blackbird-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-lester-young-all-of-me-solo-alto",
+      "title": "Lester Young — \"All of Me\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Lester Young's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/lester-young-all-of-me-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-lester-young-shoeshine-boy-solo-alto",
+      "title": "Lester Young — \"Shoeshine Boy\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Lester Young's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/lester-young-shoeshine-boy-transcription.html"
+    },
+    {
+      "id": "saxteacheruk-lester-young-oh-lady-be-good-solo-alto",
+      "title": "Lester Young — \"Oh, Lady Be Good!\" solo (alto)",
+      "project": "SaxTeacher UK",
+      "category": "Solo alto",
+      "instrument": "Alto",
+      "description": "Free transcription of Lester Young's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://saxteacheruk.com/transcriptions/lester-young-oh-lady-be-good-transcription.html"
+    },
+    {
+      "id": "scooby-sax-sonny-rollins-airegin-solo-tenor",
+      "title": "Sonny Rollins — \"Airegin\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Sonny Rollins' solo in B-flat.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-john-coltrane-giant-steps-solo-tenor",
+      "title": "John Coltrane — \"Giant Steps\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of John Coltrane's solo in B-flat.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-john-coltrane-naima-solo-tenor",
+      "title": "John Coltrane — \"Naima\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of John Coltrane's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-john-coltrane-dear-lord-solo-tenor",
+      "title": "John Coltrane — \"Dear Lord\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of John Coltrane's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-hank-mobley-room-608-solo-tenor",
+      "title": "Hank Mobley — \"Room 608\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Hank Mobley's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-hank-mobley-blues-number-two-solo-tenor",
+      "title": "Hank Mobley — \"Blues Number Two\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Hank Mobley's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-confirmation-solo-tenor",
+      "title": "Jackie McLean — \"Confirmation\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Jackie McLean's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-stella-by-starlight-solo-tenor",
+      "title": "Jackie McLean — \"Stella by Starlight\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Jackie McLean's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-stan-getz-yardbird-suite-solo-tenor",
+      "title": "Stan Getz — \"Yardbird Suite\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Stan Getz' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-george-coleman-billie-s-bounce-solo-tenor",
+      "title": "George Coleman — \"Billie's Bounce\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of George Coleman's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-dexter-gordon-blow-mr-dexter-solo-tenor",
+      "title": "Dexter Gordon — \"Blow Mr. Dexter\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Dexter Gordon's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-tune-up-solo-tenor",
+      "title": "Sonny Stitt — \"Tune Up\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Sonny Stitt's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-now-s-the-time-solo-tenor",
+      "title": "Sonny Stitt — \"Now's the Time\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Sonny Stitt's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-phil-woods-yardbird-suite-solo-tenor",
+      "title": "Phil Woods — \"Yardbird Suite\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Phil Woods' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-phil-woods-solar-solo-tenor",
+      "title": "Phil Woods — \"Solar\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Phil Woods' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-phil-woods-stella-by-starlight-solo-tenor",
+      "title": "Phil Woods — \"Stella by Starlight\" solo (tenor)",
+      "project": "Scooby Sax",
+      "category": "Solo tenor",
+      "instrument": "Tenor",
+      "description": "Free transcription of Phil Woods' solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "scooby-sax-john-coltrane-naima-solo-bari",
+      "title": "John Coltrane — \"Naima\" solo (bari)",
+      "project": "Scooby Sax",
+      "category": "Solo bari",
+      "instrument": "Bari",
+      "description": "Free transcription of John Coltrane's solo.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "https://scooby-sax.com/Transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-walt-weiskopf-a-time-for-love-solo-soprano",
+      "title": "Walt Weiskopf — \"A Time for Love\" solo (soprano)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free PDF soprano solo with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-eric-alexander-i-can-dream-can-t-i-solo-soprano",
+      "title": "Eric Alexander — \"I Can Dream, Can't I?\" solo (soprano)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free PDF soprano solo with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-charles-mcpherson-blues-for-chuck-solo-soprano",
+      "title": "Charles McPherson — \"Blues for Chuck\" solo (soprano)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free PDF soprano solo with commentary from Ohio University saxophone studio.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-cannonball-adderley-cherokee-solo-soprano",
+      "title": "Cannonball Adderley — \"Cherokee\" solo (soprano)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free PDF soprano solo transcription with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ousaxstudio-miguel-zenon-la-maga-the-magician-solo-soprano",
+      "title": "Miguel Zenón — \"La Maga (The Magician)\" solo (soprano)",
+      "project": "Ohio Sax Studio",
+      "category": "Solo soprano",
+      "instrument": "Soprano",
+      "description": "Free PDF soprano solo with commentary.",
+      "license": "Community transcription (check rights)",
+      "sourceUrl": "http://ousaxstudio.weebly.com/sample-transcriptions.html"
+    }
+  ]
+}

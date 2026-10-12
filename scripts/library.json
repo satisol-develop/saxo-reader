@@ -1,0 +1,1671 @@
+{
+  "generatedAt": "2026-10-11T23:35:19.870Z",
+  "total": 185,
+  "items": [
+    {
+      "id": "bopland-varios-all-the-things-you-are",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "All the Things You Are",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-autumn-leaves",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Autumn Leaves",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-the-days-of-wine-and-roses",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "The Days of Wine and Roses",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-giant-steps",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Giant Steps",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-how-high-the-moon",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "How High the Moon",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-it-don-t-mean-a-thing",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "It Don't Mean a Thing",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-lullaby-of-birdland",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Lullaby of Birdland",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-my-funny-valentine",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "My Funny Valentine",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-on-the-sunny-side-of-the-street",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "On the Sunny Side of the Street",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-satin-doll",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Satin Doll",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-someday-my-prince-will-come",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Someday My Prince Will Come",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-stella-by-starlight",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Stella by Starlight",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-take-five",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Take Five",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "bopland-varios-take-the-a-train",
+      "project": "BopLand",
+      "artist": null,
+      "tune": "Take the A Train",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://bopland.org/home"
+    },
+    {
+      "id": "scooby-sax-al-cohn-tenor-conclave",
+      "project": "Scooby Sax",
+      "artist": "Al Cohn",
+      "tune": "Tenor Conclave",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gene-ammons-archie",
+      "project": "Scooby Sax",
+      "artist": "Gene Ammons",
+      "tune": "Archie",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gene-ammons-autumn-leaves",
+      "project": "Scooby Sax",
+      "artist": "Gene Ammons",
+      "tune": "Autumn Leaves",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gene-ammons-chabootie",
+      "project": "Scooby Sax",
+      "artist": "Gene Ammons",
+      "tune": "Chabootie",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gene-ammons-four",
+      "project": "Scooby Sax",
+      "artist": "Gene Ammons",
+      "tune": "Four",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gene-ammons-walkin",
+      "project": "Scooby Sax",
+      "artist": "Gene Ammons",
+      "tune": "Walkin'",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-george-coleman-billie-s-bounce",
+      "project": "Scooby Sax",
+      "artist": "George Coleman",
+      "tune": "Billie's Bounce",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-john-coltrane-tenor-conclave",
+      "project": "Scooby Sax",
+      "artist": "John Coltrane",
+      "tune": "Tenor Conclave",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-ronnie-cuber-a-foggy-day",
+      "project": "Scooby Sax",
+      "artist": "Ronnie Cuber",
+      "tune": "A Foggy Day",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-gary-foster-yardbird-suite",
+      "project": "Scooby Sax",
+      "artist": "Gary Foster",
+      "tune": "Yardbird Suite",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-joel-frahm-giant-steps",
+      "project": "Scooby Sax",
+      "artist": "Joel Frahm",
+      "tune": "Giant Steps",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-stan-getz-woody-n-you",
+      "project": "Scooby Sax",
+      "artist": "Stan Getz",
+      "tune": "Woody 'N You",
+      "context": "Master Take",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-stan-getz-yardbird-suite",
+      "project": "Scooby Sax",
+      "artist": "Stan Getz",
+      "tune": "Yardbird Suite",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-rosario-giuliani-the-dream-that-comes-true",
+      "project": "Scooby Sax",
+      "artist": "Rosario Giuliani",
+      "tune": "The Dream That Comes True",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-dexter-gordon-blow-mr-dexter",
+      "project": "Scooby Sax",
+      "artist": "Dexter Gordon",
+      "tune": "Blow Mr. Dexter",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-dexter-gordon-four",
+      "project": "Scooby Sax",
+      "artist": "Dexter Gordon",
+      "tune": "Four",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-bernie-s-tune",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Bernie's Tune",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-dell-s-bells",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Dell's Bells",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-five-star",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Five Star",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-pennies-from-heaven",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Pennies from Heaven",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-relaxin-at-camarillo",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Relaxin' at Camarillo",
+      "context": "Master Take",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-wardell-gray-twisted",
+      "project": "Scooby Sax",
+      "artist": "Wardell Gray",
+      "tune": "Twisted",
+      "context": "Master Take; Alternates JRC46A, JRC46C, JRC46D",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-steve-grossman-there-will-never-be-another-you",
+      "project": "Scooby Sax",
+      "artist": "Steve Grossman",
+      "tune": "There Will Never Be Another You",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-vincent-herring-big-bertha",
+      "project": "Scooby Sax",
+      "artist": "Vincent Herring",
+      "tune": "Big Bertha",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-vincent-herring-i-ll-remember-april",
+      "project": "Scooby Sax",
+      "artist": "Vincent Herring",
+      "tune": "I'll Remember April",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-vincent-herring-jessica-s-day",
+      "project": "Scooby Sax",
+      "artist": "Vincent Herring",
+      "tune": "Jessica's Day",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-vincent-herring-love-walked-in",
+      "project": "Scooby Sax",
+      "artist": "Vincent Herring",
+      "tune": "Love Walked In",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-holly-hofmann-close-your-eyes",
+      "project": "Scooby Sax",
+      "artist": "Holly Hofmann",
+      "tune": "Close Your Eyes",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-harold-land-joy-spring",
+      "project": "Scooby Sax",
+      "artist": "Harold Land",
+      "tune": "Joy Spring",
+      "context": "Master Take y Alternates",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-harold-land-sandu",
+      "project": "Scooby Sax",
+      "artist": "Harold Land",
+      "tune": "Sandu",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-larry-mckenna-my-shining-hour",
+      "project": "Scooby Sax",
+      "artist": "Larry McKenna",
+      "tune": "My Shining Hour",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-larry-mckenna-out-of-nowhere",
+      "project": "Scooby Sax",
+      "artist": "Larry McKenna",
+      "tune": "Out of Nowhere",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-confirmation",
+      "project": "Scooby Sax",
+      "artist": "Jackie McLean",
+      "tune": "Confirmation",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-four",
+      "project": "Scooby Sax",
+      "artist": "Jackie McLean",
+      "tune": "Four",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-i-remember-you",
+      "project": "Scooby Sax",
+      "artist": "Jackie McLean",
+      "tune": "I Remember You",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-jackie-mclean-stella-by-starlight",
+      "project": "Scooby Sax",
+      "artist": "Jackie McLean",
+      "tune": "Stella by Starlight",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-hank-mobley-room-608",
+      "project": "Scooby Sax",
+      "artist": "Hank Mobley",
+      "tune": "Room 608",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-hank-mobley-blues-number-two",
+      "project": "Scooby Sax",
+      "artist": "Hank Mobley",
+      "tune": "Blues Number Two",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-hank-mobley-tenor-conclave",
+      "project": "Scooby Sax",
+      "artist": "Hank Mobley",
+      "tune": "Tenor Conclave",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-james-moody-good-bait",
+      "project": "Scooby Sax",
+      "artist": "James Moody",
+      "tune": "Good Bait",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-james-moody-i-m-in-the-mood-for-groovin",
+      "project": "Scooby Sax",
+      "artist": "James Moody",
+      "tune": "I'm in the Mood for Groovin'",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-james-moody-lester-leaps-in",
+      "project": "Scooby Sax",
+      "artist": "James Moody",
+      "tune": "Lester Leaps In",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-ralph-moore-like-someone-in-love",
+      "project": "Scooby Sax",
+      "artist": "Ralph Moore",
+      "tune": "Like Someone in Love",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-ralph-moore-squatty-roo",
+      "project": "Scooby Sax",
+      "artist": "Ralph Moore",
+      "tune": "Squatty Roo",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lennie-niehaus-cherokee",
+      "project": "Scooby Sax",
+      "artist": "Lennie Niehaus",
+      "tune": "Cherokee",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lennie-niehaus-star-eyes",
+      "project": "Scooby Sax",
+      "artist": "Lennie Niehaus",
+      "tune": "Star Eyes",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-charlie-parker-carvin-the-bird",
+      "project": "Scooby Sax",
+      "artist": "Charlie Parker",
+      "tune": "Carvin' the Bird",
+      "context": "Master Take y Alternates",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-charlie-parker-moose-the-mooche",
+      "project": "Scooby Sax",
+      "artist": "Charlie Parker",
+      "tune": "Moose the Mooche",
+      "context": "Take 1",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-charlie-parker-relaxin-at-camarillo",
+      "project": "Scooby Sax",
+      "artist": "Charlie Parker",
+      "tune": "Relaxin' at Camarillo",
+      "context": "Master Take",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-art-pepper-holiday-flight",
+      "project": "Scooby Sax",
+      "artist": "Art Pepper",
+      "tune": "Holiday Flight",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-art-pepper-what-is-this-thing-called-love",
+      "project": "Scooby Sax",
+      "artist": "Art Pepper",
+      "tune": "What Is This Thing Called Love?",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-bill-perkins-star-eyes",
+      "project": "Scooby Sax",
+      "artist": "Bill Perkins",
+      "tune": "Star Eyes",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-rollins-airegin",
+      "project": "Scooby Sax",
+      "artist": "Sonny Rollins",
+      "tune": "Airegin",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-rollins-what-is-this-thing-called-love",
+      "project": "Scooby Sax",
+      "artist": "Sonny Rollins",
+      "tune": "What Is This Thing Called Love",
+      "context": "Master Take y Alternates",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-zoot-sims-tenor-conclave",
+      "project": "Scooby Sax",
+      "artist": "Zoot Sims",
+      "tune": "Tenor Conclave",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-afternoon-in-paris",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Afternoon in Paris",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-au-privave",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Au Privave",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-chabootie",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Chabootie",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-now-s-the-time",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Now's the Time",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-sonny-side",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Sonny Side",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-sonny-stitt-tune-up",
+      "project": "Scooby Sax",
+      "artist": "Sonny Stitt",
+      "tune": "Tune Up",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-frank-wess-there-is-no-greater-love",
+      "project": "Scooby Sax",
+      "artist": "Frank Wess",
+      "tune": "There Is No Greater Love",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-buzzy",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Buzzy",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-clinology",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Clinology",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-crazeology",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Crazeology",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-four",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Four",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-hallucinations",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Hallucinations",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-how-high-the-moon",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "How High the Moon",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-have-you-met-miss-jones",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Have You Met Miss Jones",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-rights-of-swing-part-iv",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Rights of Swing Part IV",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-slow-boat-to-china",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Slow Boat to China",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-solar",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Solar",
+      "context": "1957 y 1996",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-star-eyes",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Star Eyes",
+      "context": "1994 y 2005",
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-stella-by-starlight",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Stella by Starlight",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-stockholm-sweetnin",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Stockholm Sweetnin'",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-take-the-a-train",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Take the A Train",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-the-serpent-s-tooth",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "The Serpent's Tooth",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-well-you-needn-t",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Well You Needn't",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-yardbird-suite",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Yardbird Suite",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-yesterdays",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Yesterdays",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-phil-woods-scrapple-from-the-apple",
+      "project": "Scooby Sax",
+      "artist": "Phil Woods",
+      "tune": "Scrapple from the Apple",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lester-young-db-blues",
+      "project": "Scooby Sax",
+      "artist": "Lester Young",
+      "tune": "DB Blues",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lester-young-poundcake",
+      "project": "Scooby Sax",
+      "artist": "Lester Young",
+      "tune": "Poundcake",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lou-donaldson-tahiti",
+      "project": "Scooby Sax",
+      "artist": "Lou Donaldson",
+      "tune": "Tahiti",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-lou-donaldson-split-kick",
+      "project": "Scooby Sax",
+      "artist": "Lou Donaldson",
+      "tune": "Split Kick",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-george-robert-i-remember-you",
+      "project": "Scooby Sax",
+      "artist": "George Robert",
+      "tune": "I Remember You",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-arnie-krakowsky-i-ve-never-been-in-love-before",
+      "project": "Scooby Sax",
+      "artist": "Arnie Krakowsky",
+      "tune": "I've Never Been in Love Before",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "scooby-sax-rickey-woodard-but-not-for-me",
+      "project": "Scooby Sax",
+      "artist": "Rickey Woodard",
+      "tune": "But Not for Me",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://scooby-sax.com/transcriptions.aspx"
+    },
+    {
+      "id": "sharp-eleven-music-michael-brecker-beirut",
+      "project": "Sharp Eleven Music",
+      "artist": "Michael Brecker",
+      "tune": "Beirut",
+      "context": "Live on EWI",
+      "instrument": null,
+      "pageUrl": "https://sharpelevenmusic.com/saxophone-transcriptions"
+    },
+    {
+      "id": "sharp-eleven-music-cannonball-adderley-oleo",
+      "project": "Sharp Eleven Music",
+      "artist": "Cannonball Adderley",
+      "tune": "Oleo",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://sharpelevenmusic.com/saxophone-transcriptions"
+    },
+    {
+      "id": "sharp-eleven-music-dave-koz-the-lesser-i-know-the-better",
+      "project": "Sharp Eleven Music",
+      "artist": "Dave Koz",
+      "tune": "The Lesser I Know The Better",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://sharpelevenmusic.com/saxophone-transcriptions"
+    },
+    {
+      "id": "sharp-eleven-music-eric-marienthal-ritual",
+      "project": "Sharp Eleven Music",
+      "artist": "Eric Marienthal",
+      "tune": "Ritual",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://sharpelevenmusic.com/saxophone-transcriptions"
+    },
+    {
+      "id": "musescore-varios-my-way",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "My Way",
+      "context": "Alto Saxophone",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-from-the-start",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "From The Start",
+      "context": "Alto Sax",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-in-the-mood",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "In The Mood",
+      "context": "Alto Sax solo",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-pure-imagination",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Pure Imagination",
+      "context": "Alto Saxophone",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-isn-t-she-lovely",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Isn't She Lovely",
+      "context": "ALTO SAX",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-before-you-go",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Before You Go",
+      "context": "Alto Saxophone",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-take-five",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Take Five",
+      "context": "Alto Sax",
+      "instrument": "Alto",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-alto"
+    },
+    {
+      "id": "musescore-varios-the-pink-panther",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "The Pink Panther",
+      "context": "Theme",
+      "instrument": "Tenor",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-tenor"
+    },
+    {
+      "id": "musescore-varios-bach-cello-suite-no-1",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Bach Cello Suite No. 1",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-tenor"
+    },
+    {
+      "id": "musescore-varios-prelude",
+      "project": "MuseScore",
+      "artist": null,
+      "tune": "Prelude",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://musescore.com/sheetmusic/solo/saxophone-tenor"
+    },
+    {
+      "id": "saxteacher-uk-coleman-hawkins-body-and-soul",
+      "project": "SaxTeacher UK",
+      "artist": "Coleman Hawkins",
+      "tune": "Body and Soul",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-illinois-jacquet-flying-home",
+      "project": "SaxTeacher UK",
+      "artist": "Illinois Jacquet",
+      "tune": "Flying Home",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-al-sears-castle-rock",
+      "project": "SaxTeacher UK",
+      "artist": "Al Sears",
+      "tune": "Castle Rock",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-benny-carter-jive-at-six",
+      "project": "SaxTeacher UK",
+      "artist": "Benny Carter",
+      "tune": "Jive at Six",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-sonny-rollins-newk-s-fadeaway",
+      "project": "SaxTeacher UK",
+      "artist": "Sonny Rollins",
+      "tune": "Newk's Fadeaway",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-john-coltrane-oleo",
+      "project": "SaxTeacher UK",
+      "artist": "John Coltrane",
+      "tune": "Oleo",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-frank-foster-splanky",
+      "project": "SaxTeacher UK",
+      "artist": "Frank Foster",
+      "tune": "Splanky",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-sahib-shihab-straight-no-chaser",
+      "project": "SaxTeacher UK",
+      "artist": "Sahib Shihab",
+      "tune": "Straight No Chaser",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-eddie-cleanhead-vinson-just-a-dream",
+      "project": "SaxTeacher UK",
+      "artist": "Eddie \"Cleanhead\" Vinson",
+      "tune": "Just a Dream",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-eddie-cleanhead-vinson-cherry-red-blues",
+      "project": "SaxTeacher UK",
+      "artist": "Eddie \"Cleanhead\" Vinson",
+      "tune": "Cherry Red Blues",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-earl-bostic-that-s-the-groovy-thing",
+      "project": "SaxTeacher UK",
+      "artist": "Earl Bostic",
+      "tune": "That's The Groovy Thing",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-earl-bostic-part-1",
+      "project": "SaxTeacher UK",
+      "artist": "Earl Bostic",
+      "tune": "Part 1",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-earl-bostic-hurricane-blues",
+      "project": "SaxTeacher UK",
+      "artist": "Earl Bostic",
+      "tune": "Hurricane Blues",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-earl-bostic-earl-blows-a-fuse",
+      "project": "SaxTeacher UK",
+      "artist": "Earl Bostic",
+      "tune": "Earl Blows a Fuse",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-johnny-hodges-basin-st-blues",
+      "project": "SaxTeacher UK",
+      "artist": "Johnny Hodges",
+      "tune": "Basin St Blues",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-johnny-hodges-blues-o-mighty",
+      "project": "SaxTeacher UK",
+      "artist": "Johnny Hodges",
+      "tune": "Blues O' Mighty",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-johnny-hodges-papa-knows",
+      "project": "SaxTeacher UK",
+      "artist": "Johnny Hodges",
+      "tune": "Papa Knows",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-ben-webster-the-touch-of-your-lips",
+      "project": "SaxTeacher UK",
+      "artist": "Ben Webster",
+      "tune": "The Touch of Your Lips",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-ben-webster-how-deep-is-the-ocean",
+      "project": "SaxTeacher UK",
+      "artist": "Ben Webster",
+      "tune": "How Deep Is the Ocean?",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-ben-webster-bye-bye-blackbird",
+      "project": "SaxTeacher UK",
+      "artist": "Ben Webster",
+      "tune": "Bye Bye Blackbird",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-lester-young-shoeshine-boy",
+      "project": "SaxTeacher UK",
+      "artist": "Lester Young",
+      "tune": "Shoeshine Boy",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-lester-young-oh",
+      "project": "SaxTeacher UK",
+      "artist": "Lester Young",
+      "tune": "Oh",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-lester-young-lady-be-good",
+      "project": "SaxTeacher UK",
+      "artist": "Lester Young",
+      "tune": "Lady Be Good!",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-lester-young-all-of-me",
+      "project": "SaxTeacher UK",
+      "artist": "Lester Young",
+      "tune": "All of Me",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-lester-young-way-down-yonder-in-new-orleans",
+      "project": "SaxTeacher UK",
+      "artist": "Lester Young",
+      "tune": "Way Down Yonder in New Orleans",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "saxteacher-uk-cannonball-adderley-straight-no-chaser",
+      "project": "SaxTeacher UK",
+      "artist": "Cannonball Adderley",
+      "tune": "Straight No Chaser",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://saxteacheruk.com/free-transcriptions.html"
+    },
+    {
+      "id": "zdenko-ivanusic-clifford-solomon-good-time-boogie",
+      "project": "Zdenko Ivanusic",
+      "artist": "Clifford Solomon",
+      "tune": "Good Time Boogie",
+      "context": "John Mayall, Jazz Blues Fusion",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-clyde-blowtop-lynne-jump-man",
+      "project": "Zdenko Ivanusic",
+      "artist": "Clyde \"Blowtop\" Lynne",
+      "tune": "Jump Man",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-clyde-blowtop-lynne-jump",
+      "project": "Zdenko Ivanusic",
+      "artist": "Clyde \"Blowtop\" Lynne",
+      "tune": "Jump",
+      "context": "With Piano Red",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-david-fathead-newman-unchain-my-heart",
+      "project": "Zdenko Ivanusic",
+      "artist": "David \"Fathead\" Newman",
+      "tune": "Unchain My Heart",
+      "context": "Ray Charles",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-dexter-gordon-blue-bossa",
+      "project": "Zdenko Ivanusic",
+      "artist": "Dexter Gordon",
+      "tune": "Blue Bossa",
+      "context": "Biting the Apple",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-edgar-winter-simply-the-best",
+      "project": "Zdenko Ivanusic",
+      "artist": "Edgar Winter",
+      "tune": "(Simply) The Best",
+      "context": "Foreign Affair",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-ernie-watts-always-say-goodbye",
+      "project": "Zdenko Ivanusic",
+      "artist": "Ernie Watts",
+      "tune": "Always Say Goodbye",
+      "context": "Charlie Haden Quartet West",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-frank-foster-splanky",
+      "project": "Zdenko Ivanusic",
+      "artist": "Frank Foster",
+      "tune": "Splanky",
+      "context": "The Atomic Mr. Basie",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-freddie-hubbard-killer-joe",
+      "project": "Zdenko Ivanusic",
+      "artist": "Freddie Hubbard",
+      "tune": "Killer Joe",
+      "context": "Quincy Jones, Walkin' in Space",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-hubert-laws-killer-joe",
+      "project": "Zdenko Ivanusic",
+      "artist": "Hubert Laws",
+      "tune": "Killer Joe",
+      "context": "Quincy Jones, Walkin' in Space",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-jimmy-mosher-keep-the-customer-satisfied",
+      "project": "Zdenko Ivanusic",
+      "artist": "Jimmy Mosher",
+      "tune": "Keep the Customer Satisfied",
+      "context": "Buddy Rich, Live",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-john-coltrane-stella-by-starlight",
+      "project": "Zdenko Ivanusic",
+      "artist": "John Coltrane",
+      "tune": "Stella by Starlight",
+      "context": "1958 Miles",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-john-coltrane-flamenco-sketches",
+      "project": "Zdenko Ivanusic",
+      "artist": "John Coltrane",
+      "tune": "Flamenco Sketches",
+      "context": "Kind of Blue",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-john-coltrane-take-the-coltrane",
+      "project": "Zdenko Ivanusic",
+      "artist": "John Coltrane",
+      "tune": "Take the Coltrane",
+      "context": "Duke Ellington & John Coltrane",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-joshua-redman-blues-on-sunday",
+      "project": "Zdenko Ivanusic",
+      "artist": "Joshua Redman",
+      "tune": "Blues on Sunday",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-joshua-redman-killer-joe",
+      "project": "Zdenko Ivanusic",
+      "artist": "Joshua Redman",
+      "tune": "Killer Joe",
+      "context": "Q's Jook Joint",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-kenny-garrett-straight-no-chaser",
+      "project": "Zdenko Ivanusic",
+      "artist": "Kenny Garrett",
+      "tune": "Straight No Chaser",
+      "context": "Jazz in Marciac Live 2010",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-kenny-garrett-straight-street",
+      "project": "Zdenko Ivanusic",
+      "artist": "Kenny Garrett",
+      "tune": "Straight Street",
+      "context": "African Exchange Student",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-king-curtis-respect",
+      "project": "Zdenko Ivanusic",
+      "artist": "King Curtis",
+      "tune": "Respect",
+      "context": "I Never Loved a Man the Way I Love You",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-kirk-whalum-i-will-always-love-you",
+      "project": "Zdenko Ivanusic",
+      "artist": "Kirk Whalum",
+      "tune": "I Will Always Love You",
+      "context": "The Bodyguard",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-lon-price-we-re-in-this-love-together",
+      "project": "Zdenko Ivanusic",
+      "artist": "Lon Price",
+      "tune": "We're in This Love Together",
+      "context": "Breakin' Away",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-lucky-thompson-walkin",
+      "project": "Zdenko Ivanusic",
+      "artist": "Lucky Thompson",
+      "tune": "Walkin'",
+      "context": "Miles Davis All Star Sextet, Walkin'",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-maceo-parker-cold-sweat",
+      "project": "Zdenko Ivanusic",
+      "artist": "Maceo Parker",
+      "tune": "Cold Sweat",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-maceo-parker-soul-power-92",
+      "project": "Zdenko Ivanusic",
+      "artist": "Maceo Parker",
+      "tune": "Soul Power '92",
+      "context": "Life on Planet Groove",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-maceo-parker-sing-a-simple-song",
+      "project": "Zdenko Ivanusic",
+      "artist": "Maceo Parker",
+      "tune": "Sing a Simple Song",
+      "context": "Funk Overload",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-malcolm-molly-duncan-pick-up-the-pieces",
+      "project": "Zdenko Ivanusic",
+      "artist": "Malcolm \"Molly\" Duncan",
+      "tune": "Pick Up the Pieces",
+      "context": "Average White Band",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-michael-brecker-moose-the-mooche",
+      "project": "Zdenko Ivanusic",
+      "artist": "Michael Brecker",
+      "tune": "Moose the Mooche",
+      "context": "Mel Lewis and Friends",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-oliver-nelson-stolen-moments",
+      "project": "Zdenko Ivanusic",
+      "artist": "Oliver Nelson",
+      "tune": "Stolen Moments",
+      "context": "The Blues and the Abstract Truth",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-red-prysock-hand-clappin",
+      "project": "Zdenko Ivanusic",
+      "artist": "Red Prysock",
+      "tune": "Hand Clappin'",
+      "context": null,
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-sam-butera-buona-sera",
+      "project": "Zdenko Ivanusic",
+      "artist": "Sam Butera",
+      "tune": "Buona Sera",
+      "context": "Louis Prima, The Wildest!",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-sonny-rollins-airegin",
+      "project": "Zdenko Ivanusic",
+      "artist": "Sonny Rollins",
+      "tune": "Airegin",
+      "context": "Bags' Groove",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-sonny-rollins-st-thomas",
+      "project": "Zdenko Ivanusic",
+      "artist": "Sonny Rollins",
+      "tune": "St. Thomas",
+      "context": "Saxophone Colossus",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "zdenko-ivanusic-wilton-felder-soul-shadows",
+      "project": "Zdenko Ivanusic",
+      "artist": "Wilton Felder",
+      "tune": "Soul Shadows",
+      "context": "The Crusaders, Rhapsody and Blues",
+      "instrument": null,
+      "pageUrl": "https://www.zdenkoivanusic.com/transcriptions/"
+    },
+    {
+      "id": "jazz-saxophone-lessons-lester-young-you-re-driving-me-crazy",
+      "project": "Jazz Saxophone Lessons",
+      "artist": "Lester Young",
+      "tune": "You're Driving Me Crazy",
+      "context": "1946",
+      "instrument": null,
+      "pageUrl": "https://jazzsaxophonelessons.com/category/free-downloads/"
+    },
+    {
+      "id": "jazz-saxophone-lessons-chris-potter-chris-potter-solo",
+      "project": "Jazz Saxophone Lessons",
+      "artist": "Chris Potter",
+      "tune": "Chris Potter Solo",
+      "context": "28 páginas, PDF libre",
+      "instrument": null,
+      "pageUrl": "https://jazzsaxophonelessons.com/category/free-downloads/"
+    },
+    {
+      "id": "ohio-sax-studio-eric-alexander-i-can-dream",
+      "project": "Ohio Sax Studio",
+      "artist": "Eric Alexander",
+      "tune": "I Can Dream",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-eric-alexander-can-t-i",
+      "project": "Ohio Sax Studio",
+      "artist": "Eric Alexander",
+      "tune": "Can't I?",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-charles-mcpherson-blues-for-chuck",
+      "project": "Ohio Sax Studio",
+      "artist": "Charles McPherson",
+      "tune": "Blues for Chuck",
+      "context": null,
+      "instrument": "Alto",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-dick-oatts-walkin-about",
+      "project": "Ohio Sax Studio",
+      "artist": "Dick Oatts",
+      "tune": "Walkin' About",
+      "context": null,
+      "instrument": "Alto",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-walt-weiskopf-a-time-for-love",
+      "project": "Ohio Sax Studio",
+      "artist": "Walt Weiskopf",
+      "tune": "A Time for Love",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-miguel-zenon-la-maga",
+      "project": "Ohio Sax Studio",
+      "artist": "Miguel Zenón",
+      "tune": "La Maga",
+      "context": "The Magician",
+      "instrument": "Alto",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-cannonball-adderley-cherokee",
+      "project": "Ohio Sax Studio",
+      "artist": "Cannonball Adderley",
+      "tune": "Cherokee",
+      "context": null,
+      "instrument": "Alto",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    },
+    {
+      "id": "ohio-sax-studio-john-coltrane-bessie-s-blues",
+      "project": "Ohio Sax Studio",
+      "artist": "John Coltrane",
+      "tune": "Bessie's Blues",
+      "context": null,
+      "instrument": "Tenor",
+      "pageUrl": "https://ousaxstudio.weebly.com/sample-transcriptions.html"
+    }
+  ]
+}
