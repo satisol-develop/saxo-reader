@@ -1,11 +1,8 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, lazy, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  DB_STATS,
-  DATA_GENERATED_AT,
+  type CatalogFilters,
   type Transcription,
-  TRANSCRIPTIONS,
   downloadUrl,
-  hasFile,
   isEmbeddable,
   kindLabel,
   linkState,
@@ -13,11 +10,18 @@ import {
   sourceUrl as resourceSourceUrl,
   viewerUrl,
 } from "./catalog";
-import { OptimizedCatalogView } from "./OptimizedCatalog";
+import { SourcesView } from "./SourcesView";
+import { SOURCES, SOURCES_GENERATED_AT, SOURCES_TOTALS, SOURCES_TOTAL_PAGES } from "./sources";
+
+// El catálogo de piezas ya resueltas (939 KB) va en su propio chunk: la app
+// pinta con la BBDD por fuentes y las piezas llegan en cuanto están listas.
+const OptimizedCatalogView = lazy(() =>
+  import("./OptimizedCatalog").then((module) => ({ default: module.OptimizedCatalogView })),
+);
 import { resolveResourceMedia } from "./lib/scrape";
 import { setMediaOverride, useResolvedMedia } from "./lib/mediaStore";
 
-type ViewMode = "catalog" | "view";
+type ViewMode = "catalog" | "sources" | "view";
 
 /** Fichero de vídeo reproducible con el reproductor nativo del navegador. */
 const isVideoFile = (url: string): boolean => /\.(mp4|webm|ogv|mov|m4v)(\?|#|$)/i.test(url);
@@ -389,6 +393,11 @@ function ViewerView({ resource, onClose }: { resource: Transcription; onClose: (
 export default function App() {
   const [mode, setMode] = useState<ViewMode>("catalog");
   const [selected, setSelected] = useState<Transcription | null>(null);
+  // Filtros con los que entra el buscador cuando vienes de la vista de fuentes.
+  const [request, setRequest] = useState<{ key: number; filters: Partial<CatalogFilters> }>({
+    key: 0,
+    filters: {},
+  });
 
   const handleView = (resource: Transcription) => {
     setSelected(resource);
@@ -400,7 +409,20 @@ export default function App() {
     setSelected(null);
   };
 
-  const withFile = useMemo(() => TRANSCRIPTIONS.filter(hasFile).length, []);
+  const searchFromSources = (options: { project?: string; page?: string; pageTitle?: string }) => {
+    setRequest((current) => ({
+      key: current.key + 1,
+      filters: {
+        project: options.project ?? "all",
+        page: options.page ?? "all",
+        pageTitle: options.pageTitle,
+      },
+    }));
+    setSelected(null);
+    setMode("catalog");
+  };
+
+  const withFile = SOURCES_TOTALS.files.pdf + SOURCES_TOTALS.files.image + SOURCES_TOTALS.files.video;
 
   return (
     <div className="app">
@@ -413,9 +435,8 @@ export default function App() {
             Saxophone Sheet Music Finder
           </h1>
           <p className="app-header__tagline">
-            {TRANSCRIPTIONS.length} piezas rastreadas en {DB_STATS.pages} páginas · {withFile} con fichero
-            directo para leer aquí · {DB_STATS.requested} de tu lista · {" "}
-            {TRANSCRIPTIONS.length - withFile} abren fuera.
+            {SOURCES.length} fuentes y {SOURCES_TOTAL_PAGES} páginas en la BBDD · {SOURCES_TOTALS.items} piezas
+            ya resueltas, {withFile} con fichero para leer aquí · {SOURCES_TOTALS.pagesOnly} abren fuera.
           </p>
         </div>
         <nav className="app-header__actions">
@@ -426,28 +447,42 @@ export default function App() {
               setSelected(null);
             }}
           >
-            🗂️ Catálogo
+            🔍 Buscar
+          </button>
+          <button
+            className={`ghost-button${mode === "sources" ? " is-active" : ""}`}
+            onClick={() => {
+              setMode("sources");
+              setSelected(null);
+            }}
+          >
+            🗂️ Fuentes ({SOURCES.length})
           </button>
         </nav>
       </header>
 
-      {mode === "catalog" ? (
-        <OptimizedCatalogView onView={handleView} />
-      ) : (
-        selected && <ViewerView resource={selected} onClose={handleCloseViewer} />
+      {mode === "catalog" && (
+        <Suspense
+          fallback={
+            <p className="loading-note">Cargando las {SOURCES_TOTALS.items} piezas ya resueltas…</p>
+          }
+        >
+          <OptimizedCatalogView key={request.key} onView={handleView} initialFilters={request.filters} />
+        </Suspense>
       )}
+      {mode === "sources" && <SourcesView onSearch={searchFromSources} />}
+      {mode === "view" && selected && <ViewerView resource={selected} onClose={handleCloseViewer} />}
 
       <footer className="app-footer">
         <p>
-          BBDD generada por el scraper el{" "}
-          {new Date(DATA_GENERATED_AT).toLocaleDateString("es-ES", {
+          BBDD por fuentes generada el{" "}
+          {new Date(SOURCES_GENERATED_AT).toLocaleDateString("es-ES", {
             day: "numeric",
             month: "long",
             year: "numeric",
           })}{" "}
-          · {DB_STATS.pages} páginas revisadas, {DB_STATS.pagesRepaired} enlaces reparados ·{" "}
-          {DB_STATS.pagesBlocked} bloquean a los bots. Los enlaces apuntan a recursos públicos: verifica
-          siempre la licencia de cada documento.
+          · {SOURCES_TOTALS.pages} páginas revisadas · {SOURCES.length} webs. Los enlaces apuntan a
+          recursos públicos: verifica siempre la licencia de cada documento.
         </p>
       </footer>
     </div>

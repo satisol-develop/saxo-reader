@@ -18,18 +18,21 @@ import {
   linkState,
   matchesFilters,
   primaryAction,
-  PROJECTS,
-  CATEGORY_COUNTS,
-  KIND_COUNTS,
-  PENDING_COUNT,
   sortResources,
   SORT_OPTIONS,
   type SortOrder,
   sourceUrl as resourceSourceUrl,
   type Transcription,
-  TRANSCRIPTIONS,
-  DATA_GENERATED_AT,
 } from "./catalog";
+import {
+  CATEGORY_COUNTS,
+  DATA_GENERATED_AT,
+  KIND_COUNTS,
+  PENDING_COUNT,
+  PROJECTS,
+  TRANSCRIPTIONS,
+} from "./catalog-data";
+import { SOURCES } from "./sources";
 import { resolveResourceMedia } from "./lib/scrape";
 import { setMediaOverride, useResolvedMedia } from "./lib/mediaStore";
 
@@ -187,31 +190,30 @@ function Chip({
   );
 }
 
-function FilterRow({
-  label,
-  hint,
-  children,
-}: {
-  label: string;
-  hint?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="filters__row">
-      <span className="filters__label">
-        {label}
-        {hint && <small>{hint}</small>}
-      </span>
-      <div className="filters__chips">{children}</div>
-    </div>
-  );
-}
+/** Contenido: traduce un único `<select>` compacto a los filtros de tipo. */
+const CONTENT_OPTIONS: { value: string; label: string; kind?: MediaKind; onlyWithFile?: boolean }[] = [
+  { value: "all", label: "Cualquier contenido" },
+  { value: "files", label: "Con fichero directo", onlyWithFile: true },
+  ...[...MEDIA_KINDS]
+    .sort((a, b) => (KIND_COUNTS.get(b.kind) ?? 0) - (KIND_COUNTS.get(a.kind) ?? 0))
+    .map((kind) => ({
+      value: kind.kind,
+      label: `${kind.label} (${KIND_COUNTS.get(kind.kind) ?? 0})`,
+      kind: kind.kind,
+    })),
+];
 
-export function OptimizedCatalogView({ onView }: { onView: (resource: Transcription) => void }) {
-  const [filters, setFilters] = useState<CatalogFilters>(EMPTY_FILTERS);
+export function OptimizedCatalogView({
+  onView,
+  initialFilters,
+}: {
+  onView: (resource: Transcription) => void;
+  initialFilters?: Partial<CatalogFilters>;
+}) {
+  const [filters, setFilters] = useState<CatalogFilters>({ ...EMPTY_FILTERS, ...initialFilters });
   const [sort, setSort] = useState<SortOrder>("recommended");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [advanced, setAdvanced] = useState(false);
   const deferredQuery = useDeferredValue(filters.query);
 
   const activeFilters = useMemo<CatalogFilters>(
@@ -243,17 +245,26 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
     setVisibleCount(PAGE_SIZE);
   }, []);
 
+  const contentValue = filters.onlyWithFile && filters.kind === "all" ? "files" : filters.kind;
   const chips = activeFilterChips(filters);
+  const advancedCount = chips.filter((chip) =>
+    ["instrument", "key", "category", "onlyRequested", "onlyPending", "includeDead"].includes(String(chip.key)),
+  ).length;
   const filesInView = useMemo(() => filtered.filter(hasFile).length, [filtered]);
+
   const activePreset = useMemo(() => {
     const keys = Object.keys(filters) as (keyof CatalogFilters)[];
     const isDefault = keys.every((key) => filters[key] === EMPTY_FILTERS[key]);
     if (isDefault) return "all";
     return (
-      PRESETS.slice(1).find((preset) =>
-        (Object.keys(preset.filters) as (keyof CatalogFilters)[]).every(
-          (key) => filters[key] === preset.filters[key],
-        ),
+      PRESETS.slice(1).find(
+        (preset) =>
+          !preset.filters.instrument &&
+          !preset.filters.key &&
+          !preset.filters.category &&
+          (Object.keys(preset.filters) as (keyof CatalogFilters)[]).every(
+            (key) => filters[key] === preset.filters[key],
+          ),
       )?.id ?? ""
     );
   }, [filters]);
@@ -279,6 +290,7 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
 
   return (
     <div className="catalog">
+      {/* Barra compacta: buscar, fuente, contenido y orden. Todo lo demás, plegado. */}
       <div className="toolbar">
         <div className="toolbar__search">
           <span className="toolbar__icon" aria-hidden="true">
@@ -288,7 +300,7 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
             id="search"
             className="search-input"
             type="search"
-            placeholder="Busca un tema, un solista o un proyecto…"
+            placeholder="Busca un tema, un solista o una fuente…"
             aria-label="Buscar en el catálogo"
             value={filters.query}
             onChange={(event) => patch({ query: event.target.value })}
@@ -301,15 +313,42 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
         </div>
 
         <div className="toolbar__controls">
-          <button
-            className={`toolbar-button${filtersOpen ? " is-active" : ""}`}
-            onClick={() => setFiltersOpen((open) => !open)}
-            aria-expanded={filtersOpen}
-          >
-            ⚙️ Filtros
-            {chips.length > 0 && <span className="toolbar-button__count">{chips.length}</span>}
-          </button>
-          <label className="toolbar__sort">
+          <label className="toolbar__select">
+            <span className="sr-only">Fuente</span>
+            <select
+              value={filters.project}
+              onChange={(event) => patch({ project: event.target.value, page: "all" })}
+            >
+              <option value="all">Fuente: todas ({TRANSCRIPTIONS.length})</option>
+              {SOURCES.map((source) => (
+                <option key={source.id} value={source.name}>
+                  {source.name} ({source.totals.items})
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="toolbar__select">
+            <span className="sr-only">Contenido</span>
+            <select
+              value={contentValue}
+              onChange={(event) => {
+                const option = CONTENT_OPTIONS.find((item) => item.value === event.target.value);
+                patch({
+                  kind: option?.kind ?? "all",
+                  onlyWithFile: Boolean(option?.onlyWithFile),
+                });
+              }}
+            >
+              {CONTENT_OPTIONS.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="toolbar__select">
             <span className="sr-only">Ordenar por</span>
             <select value={sort} onChange={(event) => setSort(event.target.value as SortOrder)}>
               {SORT_OPTIONS.map((option) => (
@@ -319,6 +358,15 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
               ))}
             </select>
           </label>
+
+          <button
+            className={`toolbar-button${advanced ? " is-active" : ""}`}
+            onClick={() => setAdvanced((open) => !open)}
+            aria-expanded={advanced}
+          >
+            ⚙️ Más filtros
+            {advancedCount > 0 && <span className="toolbar-button__count">{advancedCount}</span>}
+          </button>
         </div>
       </div>
 
@@ -356,116 +404,86 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
               <span>{TRANSCRIPTIONS.length} en total</span>
             </>
           )}
-        </p>
-        <p className="catalog__hint">
-          «Buscar fichero» relee la página de origen cuando el enlace cambie de sitio.
+          <span className="catalog__sep" aria-hidden="true">
+            ·
+          </span>
+          <span className="catalog__hint-inline">🔎 relee la página si el enlace cambió</span>
         </p>
       </div>
 
-      {filtersOpen && (
-        <div className="filters">
-          <div className="filters__head">
-            <span className="filters__title">Refina la búsqueda</span>
-            {chips.length > 0 && (
-              <button className="pill pill--clear" onClick={clearAll}>
-                Limpiar todo
-              </button>
-            )}
+      {advanced && (
+        <div className="filters filters--compact">
+          <div className="filters__group">
+            <span className="filters__label">Saxofón</span>
+            <div className="filters__chips">
+              {INSTRUMENTS.map((instrument) => (
+                <Chip
+                  key={instrument}
+                  active={filters.instrument === instrument}
+                  onClick={() =>
+                    patch({ instrument: filters.instrument === instrument ? "all" : (instrument as Instrument) })
+                  }
+                >
+                  {instrument}
+                </Chip>
+              ))}
+              {MUSIC_KEYS.map((key) => (
+                <Chip
+                  key={key}
+                  active={filters.key === key}
+                  title={KEY_LABELS[key]}
+                  onClick={() => patch({ key: filters.key === key ? "all" : (key as MusicKey) })}
+                >
+                  {KEY_LABELS[key]}
+                </Chip>
+              ))}
+            </div>
           </div>
 
-          <FilterRow label="Fichero" hint="qué abre cada ficha">
-            <Chip active={filters.kind === "all"} onClick={() => patch({ kind: "all" })}>
-              Cualquiera
-            </Chip>
-            {MEDIA_KINDS.map((kind) => (
-              <Chip
-                key={kind.kind}
-                active={filters.kind === kind.kind}
-                count={KIND_COUNTS.get(kind.kind) ?? 0}
-                onClick={() => patch({ kind: filters.kind === kind.kind ? "all" : (kind.kind as MediaKind) })}
-              >
-                {kind.label}
-              </Chip>
-            ))}
-            <Chip active={filters.onlyWithFile} onClick={() => patch({ onlyWithFile: !filters.onlyWithFile })}>
-              Solo con fichero
-            </Chip>
-          </FilterRow>
+          <div className="filters__group">
+            <span className="filters__label">Tipo</span>
+            <div className="filters__chips">
+              {CATEGORIES.map((category) => (
+                <Chip
+                  key={category}
+                  active={filters.category === category}
+                  count={CATEGORY_COUNTS.get(category) ?? 0}
+                  onClick={() => patch({ category: filters.category === category ? "all" : (category as Category) })}
+                >
+                  {category}
+                </Chip>
+              ))}
+            </div>
+          </div>
 
-          <FilterRow label="Saxofón" hint="tonalidad que puedes leer">
-            <Chip active={filters.instrument === "all"} onClick={() => patch({ instrument: "all" })}>
-              Todos
-            </Chip>
-            {INSTRUMENTS.map((instrument) => (
+          <div className="filters__group">
+            <span className="filters__label">Estado</span>
+            <div className="filters__chips">
               <Chip
-                key={instrument}
-                active={filters.instrument === instrument}
-                onClick={() =>
-                  patch({ instrument: filters.instrument === instrument ? "all" : (instrument as Instrument) })
-                }
+                active={filters.onlyRequested}
+                count={TRANSCRIPTIONS.filter((resource) => resource.requested).length}
+                onClick={() => patch({ onlyRequested: !filters.onlyRequested })}
               >
-                {instrument}
+                ★ De tu lista
               </Chip>
-            ))}
-            {MUSIC_KEYS.map((key) => (
               <Chip
-                key={key}
-                active={filters.key === key}
-                title={KEY_LABELS[key]}
-                onClick={() => patch({ key: filters.key === key ? "all" : (key as MusicKey) })}
+                active={filters.onlyPending}
+                count={PENDING_COUNT}
+                onClick={() => patch({ onlyPending: !filters.onlyPending })}
               >
-                {KEY_LABELS[key]}
+                Abren fuera
               </Chip>
-            ))}
-          </FilterRow>
+              <Chip active={filters.includeDead} onClick={() => patch({ includeDead: !filters.includeDead })}>
+                Incluir caídos
+              </Chip>
+            </div>
+          </div>
 
-          <FilterRow label="Proyecto" hint={`${PROJECTS.length} webs rastreadas`}>
-            <Chip active={filters.project === "all"} count={TRANSCRIPTIONS.length} onClick={() => patch({ project: "all" })}>
-              Todos
-            </Chip>
-            {PROJECTS.map((project) => (
-              <Chip
-                key={project.name}
-                active={filters.project === project.name}
-                count={project.count}
-                onClick={() => patch({ project: filters.project === project.name ? "all" : project.name })}
-              >
-                {project.name}
-              </Chip>
-            ))}
-          </FilterRow>
-
-          <FilterRow label="Tipo de recurso">
-            <Chip active={filters.category === "all"} onClick={() => patch({ category: "all" })}>
-              Todos
-            </Chip>
-            {CATEGORIES.map((category) => (
-              <Chip
-                key={category}
-                active={filters.category === category}
-                count={CATEGORY_COUNTS.get(category) ?? 0}
-                onClick={() => patch({ category: filters.category === category ? "all" : (category as Category) })}
-              >
-                {category}
-              </Chip>
-            ))}
-          </FilterRow>
-
-          <FilterRow label="Estado del scraping">
-            <Chip
-              active={filters.onlyRequested}
-              count={TRANSCRIPTIONS.filter((resource) => resource.requested).length}
-              onClick={() => patch({ onlyRequested: !filters.onlyRequested })}
-            >
-              ★ De tu lista
-            </Chip>
-            <Chip active={filters.onlyPending} count={PENDING_COUNT} onClick={() => patch({ onlyPending: !filters.onlyPending })}>
-              Sin fichero (abre fuera)
-            </Chip>
-            <Chip active={filters.includeDead} onClick={() => patch({ includeDead: !filters.includeDead })}>
-              Incluir enlaces caídos
-            </Chip>
-          </FilterRow>
+          {chips.length > 0 && (
+            <button className="pill pill--clear" onClick={clearAll}>
+              Limpiar todos los filtros
+            </button>
+          )}
         </div>
       )}
 
@@ -475,7 +493,12 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
             <button
               key={String(chip.key)}
               className="pill"
-              onClick={() => patch({ [chip.key]: EMPTY_FILTERS[chip.key] } as Partial<CatalogFilters>)}
+              onClick={() =>
+                patch({
+                  [chip.key]: EMPTY_FILTERS[chip.key],
+                  ...(chip.key === "project" ? { page: "all" as const } : {}),
+                } as Partial<CatalogFilters>)
+              }
             >
               {chip.label} <span aria-hidden="true">✕</span>
             </button>
@@ -487,7 +510,7 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
         <div className="empty">
           <p className="empty__title">Nada por aquí</p>
           <p className="empty__hint">
-            Prueba con otro proyecto, quita la tonalidad o busca solo el apellido del solista.
+            Prueba con otra fuente, quita la tonalidad o busca solo el apellido del solista.
           </p>
           <button className="btn" onClick={clearAll}>
             Limpiar filtros
@@ -510,9 +533,12 @@ export function OptimizedCatalogView({ onView }: { onView: (resource: Transcript
       )}
 
       <p className="catalog__footnote">
-        BBDD rastreada el{" "}
-        {new Date(DATA_GENERATED_AT).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" })} ·
-        una ficha por pieza
+        {PROJECTS.length} fuentes · BBDD de piezas rastreada el{" "}
+        {new Date(DATA_GENERATED_AT).toLocaleDateString("es-ES", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
       </p>
     </div>
   );

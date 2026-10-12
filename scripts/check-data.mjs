@@ -13,8 +13,13 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DB = path.resolve(__dirname, "..", "src", "data", "transcriptions.json");
+const DATA_DIR = path.resolve(__dirname, "..", "src", "data");
+const DB = path.join(DATA_DIR, "transcriptions.json");
+/** BBDD por fuentes: qué ofrece cada web y cada página, y cómo se scrapea. */
+const SOURCES_DB = path.join(DATA_DIR, "sources.json");
 const KINDS = new Set(["pdf", "image", "video", "page", "none"]);
+const ACCESS = new Set(["abierta", "gated", "js", "bots", "caida", "sin-rastrear"]);
+const STRATEGIES = new Set(["list", "pieces", "letters", "sitemap", "spa", "hub"]);
 const REQUIRED = ["id", "title", "project", "category", "description", "license", "sourceUrl", "status"];
 
 const problems = [];
@@ -70,6 +75,76 @@ const summary = (db.resources ?? []).reduce((acc, resource) => {
   return acc;
 }, {});
 
+// ------------------------------------------------------ BBDD por fuentes ---
+
+let sourcesDb = null;
+try {
+  sourcesDb = JSON.parse(await readFile(SOURCES_DB, "utf8"));
+} catch (error) {
+  problems.push(`No se pudo leer src/data/sources.json: ${error.message}`);
+}
+
+if (sourcesDb) {
+  if (!Array.isArray(sourcesDb.sources) || sourcesDb.sources.length === 0) {
+    problems.push("sources.json no contiene fuentes.");
+  }
+
+  const seen = new Set();
+  let pages = 0;
+  let files = { pdf: 0, image: 0, video: 0 };
+
+  for (const source of sourcesDb.sources ?? []) {
+    const where = `fuente ${source?.id ?? "sin id"}`;
+    for (const field of ["id", "name", "host", "hub", "kind", "recipe", "totals", "pages"]) {
+      if (source[field] === undefined || source[field] === null || source[field] === "") {
+        problems.push(`${where}: falta el campo "${field}"`);
+      }
+    }
+    if (seen.has(source.id)) problems.push(`${where}: id duplicado`);
+    seen.add(source.id);
+
+    if (!STRATEGIES.has(source.kind)) problems.push(`${where}: receta desconocida "${source.kind}"`);
+    if (!Array.isArray(source.recipe?.steps) || source.recipe.steps.length === 0) {
+      problems.push(`${where}: la receta no explica cómo scrapearla`);
+    }
+
+    let sourceFiles = { pdf: 0, image: 0, video: 0 };
+    for (const page of source.pages ?? []) {
+      pages += 1;
+      if (!page.url) problems.push(`${where}: página sin url`);
+      if (!ACCESS.has(page.access)) problems.push(`${where}: acceso desconocido "${page.access}" (${page.url})`);
+      for (const [kind, count] of Object.entries(page.files ?? {})) {
+        if (kind in sourceFiles) sourceFiles[kind] += count;
+      }
+    }
+    if (source.totals?.pages !== (source.pages ?? []).length) {
+      problems.push(`${where}: totals.pages (${source.totals?.pages}) no cuadra con ${(source.pages ?? []).length} páginas`);
+    }
+    for (const [kind, count] of Object.entries(sourceFiles)) {
+      if ((source.totals?.files?.[kind] ?? 0) !== count) {
+        problems.push(`${where}: totals.files.${kind} (${source.totals?.files?.[kind]}) no cuadra con las páginas (${count})`);
+      }
+      files[kind] += count;
+    }
+  }
+
+  if (sourcesDb.totals?.pages !== pages) {
+    problems.push(`sources.json: totals.pages (${sourcesDb.totals?.pages}) no cuadra con ${pages} páginas`);
+  }
+  for (const [kind, count] of Object.entries(files)) {
+    if ((sourcesDb.totals?.files?.[kind] ?? 0) !== count) {
+      problems.push(`sources.json: totals.files.${kind} (${sourcesDb.totals?.files?.[kind]}) no cuadra con las fuentes (${count})`);
+    }
+  }
+
+  // Cada pieza tiene que colgar de una fuente conocida.
+  const names = new Set((sourcesDb.sources ?? []).map((source) => source.name));
+  const orphans = new Set(
+    (db.resources ?? []).map((resource) => resource.project).filter((project) => !names.has(project)),
+  );
+  if (orphans.size) problems.push(`Piezas de proyectos sin fuente en sources.json: ${[...orphans].join(", ")}`);
+}
+
 if (problems.length) {
   console.error(`BBDD inválida: ${problems.length} problema(s)`);
   for (const problem of problems.slice(0, 25)) console.error(` - ${problem}`);
@@ -78,3 +153,8 @@ if (problems.length) {
 }
 
 console.log(`BBDD válida: ${db.resources.length} recursos ${JSON.stringify(summary)}`);
+if (sourcesDb) {
+  console.log(
+    `Fuentes válidas: ${sourcesDb.sources.length} webs · ${sourcesDb.totals.pages} páginas · accesos ${JSON.stringify(sourcesDb.totals.access ?? {})}`,
+  );
+}

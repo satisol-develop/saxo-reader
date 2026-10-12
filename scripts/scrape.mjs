@@ -27,6 +27,7 @@
  */
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { DEFAULT_PROFILE, SOURCE_PROFILES, profileFor } from "./source-profiles.mjs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import path from "node:path";
 
@@ -38,6 +39,8 @@ const CURATED = path.join(__dirname, "curated.json");
 const OUT_DIR = path.join(ROOT, "src", "data");
 const OUT_DB = path.join(OUT_DIR, "transcriptions.json");
 const OUT_REPORT = path.join(OUT_DIR, "scrape-report.json");
+/** BBDD por fuentes: qué ofrece cada web y cada página, y cómo se scrapea. */
+const OUT_SOURCES = path.join(OUT_DIR, "sources.json");
 /** Resultado del último rastreo, para re-emparejar sin volver a bajar 478 páginas. */
 const CACHE = path.join(__dirname, "crawl-cache.json");
 
@@ -169,6 +172,17 @@ const NAMED_ENTITIES = {
   uuml: "ü",
   ouml: "ö",
   auml: "ä",
+  middot: "·",
+  bull: "•",
+  laquo: "«",
+  raquo: "»",
+  times: "×",
+  copy: "©",
+  reg: "®",
+  trade: "™",
+  euro: "€",
+  pound: "£",
+  frac12: "½",
 };
 
 export const decodeEntities = (value) =>
@@ -201,7 +215,11 @@ export function cleanLabel(raw) {
     .trim();
 }
 
-const stripTags = (value) => decodeEntities(value.replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+// Doble decodificación: hay webs que sirven "&amp;middot;" y quedaría "&middot;".
+const stripTags = (value) =>
+  decodeEntities(decodeEntities(value.replace(/<[^>]*>/g, " ")))
+    .replace(/\s+/g, " ")
+    .trim();
 
 /** Título legible a partir del nombre del fichero: libros.pdf → "Libros". */
 const labelFromUrl = (url) => {
@@ -477,11 +495,15 @@ export function splitTitle(text) {
     const describes = /^(form|changes?|chords?|how|play ?along|backing|lesson|guide|tutorial|analysis|explained|transcription|overview|breakdown|practice|masterclass|study)\b/i.test(
       tune,
     );
+    // Y la izquierda puede ser el nombre del proyecto o de un cuaderno de
+    // ejercicios ("SaxTeacher UK · Practice guide …"), no un solista.
+    const notAnArtist = /practice guide|workbook|lesson|course|guide|method|&|\bthe\b.*,/i.test(artist) || artist.split(/\s+/).length > 6;
     // "Tune Up Solo — Bb Version": la parte derecha es la tonalidad, no el tema.
     if (
       artist.length >= 3 &&
       tune.length >= 3 &&
       !describes &&
+      !notAnArtist &&
       !PART_WORDS.test(tune) &&
       !PART_WORDS.test(artist)
     ) {
@@ -611,6 +633,161 @@ function makeItemResource({ page, item, kind, media, tune, artist, sourceUrl, pa
     },
     candidates: { pdfs: [], images: [], videos: [] },
     checkedAt: now(),
+  };
+}
+
+/**
+ * Acceso de una página: mezcla lo que respondió el servidor con lo que ofrece
+ * de verdad, que es lo que importa para saber si se puede scrapear.
+ */
+function accessOfPage(entry, profile, files) {
+  // Sin informe: son las anclas de las apps SPA (no se descargan) o páginas
+  // del listado curado que aún no se han visitado.
+  if (!entry) return profile.access === "js" || profile.access === "gated" ? profile.access : "sin-rastrear";
+  if (entry.blocked) return "bots";
+  if (entry.status >= 400) return "caida";
+  const hasFiles = files.pdf + files.image + files.video > 0;
+  // Responde 200 pero no expone ningún fichero: el HTML no lo lleva.
+  if (!hasFiles && (profile.access === "js" || profile.access === "gated")) return profile.access;
+  return "abierta";
+}
+
+/**
+ * BBDD por fuentes: por cada web, su receta de scraping y cada una de sus
+ * páginas con lo que ofrece (PDF, imágenes, vídeo) y si se puede acceder.
+ */
+function buildSourcesDb({ generatedAt, pages, report, resources }) {
+  const reportByUrl = new Map(report.map((entry) => [entry.url, entry]));
+  const filesByPage = new Map();
+  const titleByPage = new Map();
+  const itemsByProject = new Map();
+
+  for (const item of resources) {
+    const list = itemsByProject.get(item.project) ?? [];
+    list.push(item);
+    itemsByProject.set(item.project, list);
+
+    if (!/^(pdf|image|video)$/.test(item.media.kind)) continue;
+    for (const url of new Set([item.pageUrl, item.sourceUrl].filter(Boolean))) {
+      const counts = filesByPage.get(url) ?? { pdf: 0, image: 0, video: 0 };
+      counts[item.media.kind] += 1;
+      filesByPage.set(url, counts);
+      if (!titleByPage.has(url)) titleByPage.set(url, item.title);
+    }
+  }
+
+  const byProject = new Map();
+  for (const page of pages) {
+    const list = byProject.get(page.project) ?? [];
+    list.push(page);
+    byProject.set(page.project, list);
+  }
+
+  const sources = [...byProject.entries()]
+    .map(([name, projectPages]) => {
+      const host = hostOf(projectPages[0].sourceUrl);
+      const profile = profileFor(host);
+      const items = itemsByProject.get(name) ?? [];
+
+      const pageList = projectPages.map((page) => {
+        const entry = reportByUrl.get(page.sourceUrl);
+        const files = filesByPage.get(page.sourceUrl) ?? { pdf: 0, image: 0, video: 0 };
+        return {
+          url: page.sourceUrl,
+          title: page.title,
+          kind: page.kind ?? "page",
+          status: entry?.status ?? 0,
+          access: accessOfPage(entry, profile, files),
+          repaired: Boolean(entry?.repaired),
+          items: entry?.items ?? 0,
+          files,
+        };
+      });
+
+      // Páginas que no estaban en el listado y aparecieron al rastrear ("segundo
+      // nivel"): también son fuentes de ficheros y se guardan igual.
+      const known = new Set(pageList.map((page) => page.url));
+      for (const [url, files] of filesByPage) {
+        if (known.has(url) || hostOf(url) !== host) continue;
+        pageList.push({
+          url,
+          title: titleByPage.get(url) ?? url,
+          kind: "descubierta",
+          status: 200,
+          access: "abierta",
+          repaired: false,
+          items: files.pdf + files.image + files.video,
+          files,
+        });
+      }
+
+      const access = pageList.reduce((acc, page) => {
+        acc[page.access] = (acc[page.access] ?? 0) + 1;
+        return acc;
+      }, {});
+      const counts = items.reduce(
+        (acc, item) => {
+          acc[item.media.kind] = (acc[item.media.kind] ?? 0) + 1;
+          return acc;
+        },
+        { pdf: 0, image: 0, video: 0, page: 0, none: 0 },
+      );
+
+      return {
+        id: slug(name),
+        name,
+        host,
+        hub: profile.hub || projectPages[0].sourceUrl,
+        kind: profile.strategy,
+        // Los sitios que prohíben el iframe se abren en pestaña nueva.
+        embed: !isEmbedBlocked(profile.hub || projectPages[0].sourceUrl),
+        license: projectPages[0].license ?? "Enlaces a terceros (verificar cada pieza)",
+        // Receta declarada + lo que de verdad responde el sitio.
+        recipe: {
+          strategy: profile.strategy,
+          access: profile.access,
+          filePatterns: profile.filePatterns,
+          steps: profile.howToScrape,
+        },
+        access,
+        notes: profile.notes,
+        totals: {
+          pages: pageList.length,
+          withFiles: pageList.filter((page) => page.files.pdf + page.files.image + page.files.video > 0).length,
+          items: items.length,
+          files: { pdf: counts.pdf, image: counts.image, video: counts.video },
+          pagesOnly: counts.page,
+        },
+        pages: pageList,
+      };
+    })
+    .sort((a, b) => b.totals.items - a.totals.items || a.name.localeCompare(b.name, "es"));
+
+  const totals = sources.reduce(
+    (acc, source) => {
+      acc.sources += 1;
+      acc.pages += source.totals.pages;
+      acc.items += source.totals.items;
+      acc.files.pdf += source.totals.files.pdf;
+      acc.files.image += source.totals.files.image;
+      acc.files.video += source.totals.files.video;
+      acc.pagesOnly += source.totals.pagesOnly;
+      for (const [key, value] of Object.entries(source.access)) {
+        acc.access[key] = (acc.access[key] ?? 0) + value;
+      }
+      return acc;
+    },
+    { sources: 0, pages: 0, items: 0, files: { pdf: 0, image: 0, video: 0 }, pagesOnly: 0, access: {} },
+  );
+
+  return {
+    generatedAt,
+    generator: "scripts/scrape.mjs + scripts/source-profiles.mjs",
+    note: "BBDD por fuentes: cada web con su receta de scraping y cada página con lo que ofrece.",
+    strategies: [...new Set(SOURCE_PROFILES && Object.values(SOURCE_PROFILES).map((p) => p.strategy))],
+    defaultRecipe: DEFAULT_PROFILE.howToScrape,
+    totals,
+    sources,
   };
 }
 
@@ -1202,6 +1379,18 @@ async function main() {
       // Dos solistas declarados sobre el mismo fichero: son dos piezas distintas.
       return Boolean(known && artist && known !== artist);
     });
+  // Un "solista" que en realidad es una frase del sitio (título de un cuaderno
+  // de ejercicios, un párrafo…) se vuelve a fundir con el tema. Importante al
+  // reutilizar la caché del rastreo, que ya trae los títulos repartidos.
+  for (const resource of all) {
+    if (resource.origin !== "crawl" || !resource.artist || !resource.tune) continue;
+    const fixed = splitTitle(`${resource.artist} — ${resource.tune}`);
+    if (fixed.artist) continue;
+    resource.artist = null;
+    resource.tune = fixed.tune;
+    resource.title = fixed.key ? `${fixed.tune} (${fixed.key})` : fixed.tune;
+  }
+
   // Categorías heredadas del listado antiguo ("PDF", "Solo alto"…) se
   // reinterpretan para que los filtros de la app sólo muestren las válidas.
   for (const resource of all) {
@@ -1258,6 +1447,11 @@ async function main() {
     "utf8",
   );
 
+  // BBDD por fuentes: una ficha por web y, dentro, una por página con lo que
+  // ofrece de verdad y su estado de acceso. Es la capa que carga el buscador.
+  const sourcesDb = buildSourcesDb({ generatedAt: db.generatedAt, pages, report, resources: all });
+  await writeFile(OUT_SOURCES, `${JSON.stringify(sourcesDb, null, 2)}\n`, "utf8");
+
   const byKind = all.reduce((acc, resource) => {
     acc[resource.media.kind] = (acc[resource.media.kind] ?? 0) + 1;
     return acc;
@@ -1278,6 +1472,9 @@ async function main() {
   console.log(`Tipos: ${JSON.stringify(byKind)}`);
   console.log(`Por proyecto: ${JSON.stringify(byProject, null, 0)}`);
   console.log(`Páginas caídas: ${report.filter((r) => !r.repaired && r.status >= 400 && !r.blocked).length}`);
+  console.log(
+    `Fuentes: ${sourcesDb.sources.length} webs · ${sourcesDb.sources.reduce((total, source) => total + source.pages.length, 0)} páginas · accesos ${JSON.stringify(sourcesDb.totals.access)}`,
+  );
 }
 
 const invokedDirectly = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T09:35:28.182Z",
+  "generatedAt": "2026-10-12T09:53:48.263Z",
   "generator": "scripts/scrape.mjs",
   "total": 884,
   "stats": {
@@ -257,7 +257,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.448Z"
+      "checkedAt": "2026-10-12T09:53:47.679Z"
     },
     {
       "status": 200,
@@ -2318,7 +2318,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.130Z"
+      "checkedAt": "2026-10-12T09:53:48.215Z"
     },
     {
       "status": 429,
@@ -2379,7 +2379,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.130Z"
+      "checkedAt": "2026-10-12T09:53:48.215Z"
     },
     {
       "status": 200,
@@ -3057,7 +3057,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-before-you-go",
@@ -3088,7 +3088,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "status": 403,
@@ -3179,7 +3179,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-in-the-mood",
@@ -3210,7 +3210,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-isn-t-she-lovely",
@@ -3241,7 +3241,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "status": 403,
@@ -3512,7 +3512,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-prelude",
@@ -3543,7 +3543,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-pure-imagination",
@@ -3574,7 +3574,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "status": 403,
@@ -3635,7 +3635,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "musescore-varios-the-pink-panther",
@@ -3666,7 +3666,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "status": 200,
@@ -3728,7 +3728,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.132Z"
+      "checkedAt": "2026-10-12T09:53:48.216Z"
     },
     {
       "status": 200,
@@ -3838,7 +3838,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.131Z"
+      "checkedAt": "2026-10-12T09:53:48.215Z"
     },
     {
       "id": "ohio-sax-studio-dick-oatts-walkin-about",
@@ -3869,7 +3869,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.131Z"
+      "checkedAt": "2026-10-12T09:53:48.216Z"
     },
     {
       "status": 200,
@@ -3931,7 +3931,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.131Z"
+      "checkedAt": "2026-10-12T09:53:48.215Z"
     },
     {
       "id": "ohio-sax-studio-eric-alexander-i-can-dream",
@@ -3962,7 +3962,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.130Z"
+      "checkedAt": "2026-10-12T09:53:48.215Z"
     },
     {
       "id": "ohio-sax-studio-john-coltrane-bessie-s-blues",
@@ -3993,7 +3993,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.132Z"
+      "checkedAt": "2026-10-12T09:53:48.216Z"
     },
     {
       "status": 200,
@@ -4054,7 +4054,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.132Z"
+      "checkedAt": "2026-10-12T09:53:48.216Z"
     },
     {
       "status": 200,
@@ -4224,7 +4224,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.131Z"
+      "checkedAt": "2026-10-12T09:53:48.216Z"
     },
     {
       "status": 200,
@@ -9656,7 +9656,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.959Z"
+      "checkedAt": "2026-10-12T09:53:48.111Z"
     },
     {
       "id": "saxteacher-uk-ben-webster-how-deep-is-the-ocean",
@@ -9687,7 +9687,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.954Z"
+      "checkedAt": "2026-10-12T09:53:48.107Z"
     },
     {
       "id": "saxteacher-uk-benny-carter-jive-at-six",
@@ -9718,7 +9718,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.851Z"
+      "checkedAt": "2026-10-12T09:53:48.044Z"
     },
     {
       "status": 200,
@@ -10058,7 +10058,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.006Z",
+      "checkedAt": "2026-10-12T09:53:48.135Z",
       "requested": true
     },
     {
@@ -10368,7 +10368,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.912Z"
+      "checkedAt": "2026-10-12T09:53:48.086Z"
     },
     {
       "id": "saxteacher-uk-earl-bostic-part-1",
@@ -10399,7 +10399,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.891Z"
+      "checkedAt": "2026-10-12T09:53:48.077Z"
     },
     {
       "id": "saxteacher-uk-earl-bostic-that-s-the-groovy-thing",
@@ -10430,7 +10430,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.888Z"
+      "checkedAt": "2026-10-12T09:53:48.074Z"
     },
     {
       "id": "saxteacher-uk-eddie-cleanhead-vinson-cherry-red-blues",
@@ -10461,7 +10461,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.880Z"
+      "checkedAt": "2026-10-12T09:53:48.070Z"
     },
     {
       "id": "saxteacher-uk-eddie-cleanhead-vinson-just-a-dream",
@@ -10492,7 +10492,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.874Z"
+      "checkedAt": "2026-10-12T09:53:48.064Z"
     },
     {
       "status": 200,
@@ -10772,7 +10772,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.865Z"
+      "checkedAt": "2026-10-12T09:53:48.056Z"
     },
     {
       "status": 200,
@@ -11961,7 +11961,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.917Z"
+      "checkedAt": "2026-10-12T09:53:48.090Z"
     },
     {
       "id": "saxteacher-uk-johnny-hodges-blues-o-mighty",
@@ -11992,7 +11992,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.927Z"
+      "checkedAt": "2026-10-12T09:53:48.094Z"
     },
     {
       "status": 200,
@@ -12371,7 +12371,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.983Z"
+      "checkedAt": "2026-10-12T09:53:48.122Z"
     },
     {
       "id": "saxteacher-uk-lester-young-oh",
@@ -12402,7 +12402,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.974Z"
+      "checkedAt": "2026-10-12T09:53:48.116Z"
     },
     {
       "id": "saxteacher-uk-lester-young-shoeshine-boy",
@@ -12433,7 +12433,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.967Z"
+      "checkedAt": "2026-10-12T09:53:48.114Z"
     },
     {
       "id": "saxteacher-uk-lester-young-way-down-yonder-in-new-orleans",
@@ -12464,7 +12464,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.997Z"
+      "checkedAt": "2026-10-12T09:53:48.129Z"
     },
     {
       "status": 200,
@@ -14208,9 +14208,9 @@
     {
       "status": 200,
       "id": "saxteacher-uk-saxteacher-uk-middot-practice-guide-rhythm-changes-workb",
-      "title": "SaxTeacher UK &middot; Practice guide Rhythm Changes Workbook Our own guide to getting around the form — the bridge, the turnarounds, what to practise first",
-      "tune": "the bridge, the turnarounds, what to practise first",
-      "artist": "SaxTeacher UK &middot; Practice guide Rhythm Changes Workbook Our own guide to getting around the form",
+      "title": "SaxTeacher UK · Practice guide Rhythm Changes Workbook Our own guide to getting around the form — the bridge, the turnarounds, what to practise first",
+      "tune": "SaxTeacher UK · Practice guide Rhythm Changes Workbook Our own guide to getting around the form — the bridge, the turnarounds, what to practise first",
+      "artist": null,
       "project": "SaxTeacher UK",
       "category": "Guía/Recurso",
       "instrument": null,
@@ -14605,7 +14605,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.855Z"
+      "checkedAt": "2026-10-12T09:53:48.048Z"
     },
     {
       "status": 200,
@@ -16496,7 +16496,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.689Z",
+      "checkedAt": "2026-10-12T09:53:47.892Z",
       "requested": true
     },
     {
@@ -17140,7 +17140,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.675Z",
+      "checkedAt": "2026-10-12T09:53:47.877Z",
       "requested": true
     },
     {
@@ -17545,7 +17545,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.539Z",
+      "checkedAt": "2026-10-12T09:53:47.755Z",
       "requested": true
     },
     {
@@ -17988,7 +17988,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.821Z",
+      "checkedAt": "2026-10-12T09:53:48.021Z",
       "requested": true
     },
     {
@@ -18208,7 +18208,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.633Z",
+      "checkedAt": "2026-10-12T09:53:47.841Z",
       "requested": true
     },
     {
@@ -18678,7 +18678,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.612Z",
+      "checkedAt": "2026-10-12T09:53:47.823Z",
       "requested": true
     },
     {
@@ -18964,7 +18964,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.504Z",
+      "checkedAt": "2026-10-12T09:53:47.723Z",
       "requested": true
     },
     {
@@ -19999,7 +19999,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.741Z",
+      "checkedAt": "2026-10-12T09:53:47.946Z",
       "requested": true
     },
     {
@@ -20070,8 +20070,8 @@
       "status": 200,
       "id": "scooby-sax-how-high-the-moon-pdf",
       "title": "Phil Woods — How High the Moon",
-      "tune": "How High the Moon",
-      "artist": "Phil Woods",
+      "tune": "Phil Woods — How High the Moon",
+      "artist": null,
       "project": "Scooby Sax",
       "category": "Solo",
       "instrument": null,
@@ -20255,7 +20255,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.769Z",
+      "checkedAt": "2026-10-12T09:53:47.973Z",
       "requested": true
     },
     {
@@ -20287,7 +20287,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.773Z",
+      "checkedAt": "2026-10-12T09:53:47.977Z",
       "requested": true
     },
     {
@@ -20383,7 +20383,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.786Z"
+      "checkedAt": "2026-10-12T09:53:47.990Z"
     },
     {
       "id": "scooby-sax-phil-woods-well-you-needn-t",
@@ -20414,7 +20414,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.789Z"
+      "checkedAt": "2026-10-12T09:53:47.993Z"
     },
     {
       "status": 200,
@@ -20445,7 +20445,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.794Z",
+      "checkedAt": "2026-10-12T09:53:47.996Z",
       "requested": true
     },
     {
@@ -21102,7 +21102,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.697Z",
+      "checkedAt": "2026-10-12T09:53:47.902Z",
       "requested": true
     },
     {
@@ -21260,7 +21260,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.713Z",
+      "checkedAt": "2026-10-12T09:53:47.914Z",
       "requested": true
     },
     {
@@ -21544,7 +21544,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.527Z",
+      "checkedAt": "2026-10-12T09:53:47.743Z",
       "requested": true
     },
     {
@@ -23384,7 +23384,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.701Z",
+      "checkedAt": "2026-10-12T09:53:47.905Z",
       "requested": true
     },
     {
@@ -23446,7 +23446,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "sharp-eleven-music-dave-koz-the-lesser-i-know-the-better",
@@ -23477,7 +23477,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "sharp-eleven-music-eric-marienthal-ritual",
@@ -23508,7 +23508,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "id": "sharp-eleven-music-michael-brecker-beirut",
@@ -23539,7 +23539,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:27.833Z"
+      "checkedAt": "2026-10-12T09:53:48.028Z"
     },
     {
       "status": 0,
@@ -24482,7 +24482,7 @@
         "images": [],
         "videos": []
       },
-      "checkedAt": "2026-10-12T09:35:28.021Z",
+      "checkedAt": "2026-10-12T09:53:48.142Z",
       "requested": true
     },
     {

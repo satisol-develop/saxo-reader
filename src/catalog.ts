@@ -1,13 +1,11 @@
 /**
- * Capa de datos del buscador de transcripciones.
+ * Modelo y decisiones del buscador de partituras.
  *
- * La BBDD (`src/data/transcriptions.json`) la genera `npm run scrape`: rastrea
- * tus páginas y guarda **una ficha por pieza** (no por página), con su artista,
- * tonalidad, tipo de fichero y estado. Aquí solo viven tipos, filtros y las
- * decisiones de visor; este módulo no hace red.
+ * Aquí sólo hay tipos, filtros y las reglas de visor: **ningún dato**. Las
+ * piezas ya resueltas viven en `src/catalog-data.ts` (939 KB, se carga en su
+ * propio chunk) y la BBDD por fuentes en `src/sources.ts` (210 KB): así la app
+ * pinta con lo segundo y el catálogo llega después.
  */
-
-import db from "./data/transcriptions.json";
 
 export type Category =
   | "Solo"
@@ -79,8 +77,6 @@ export interface Transcription {
   checkedAt: string;
 }
 
-export const TRANSCRIPTIONS: Transcription[] = db.resources as Transcription[];
-export const DATA_GENERATED_AT: string = db.generatedAt;
 
 /** Cobertura del último rastreo: cuántas páginas se revisaron y qué salió. */
 export interface DbStats {
@@ -95,30 +91,9 @@ export interface DbStats {
   requestedWithFile: number;
 }
 
-const RAW_STATS = (db as { stats?: Partial<DbStats> }).stats ?? {};
-
 /** ¿La ficha abre un fichero directo (PDF, imagen o vídeo) en vez de una página? */
 export const hasFile = (item: Transcription): boolean =>
   item.media.kind === "pdf" || item.media.kind === "video" || item.media.kind === "image";
-
-export const DB_STATS: DbStats = {
-  pages: RAW_STATS.pages ?? 0,
-  pagesReached: RAW_STATS.pagesReached ?? 0,
-  pagesRepaired: RAW_STATS.pagesRepaired ?? 0,
-  pagesBlocked: RAW_STATS.pagesBlocked ?? 0,
-  pagesDead: RAW_STATS.pagesDead ?? 0,
-  withFile: RAW_STATS.withFile ?? TRANSCRIPTIONS.filter(hasFile).length,
-  pending: RAW_STATS.pending ?? TRANSCRIPTIONS.filter((item) => !hasFile(item)).length,
-  requested: RAW_STATS.requested ?? TRANSCRIPTIONS.filter((item) => item.requested).length,
-  requestedWithFile:
-    RAW_STATS.requestedWithFile ??
-    TRANSCRIPTIONS.filter((item) => item.requested && hasFile(item)).length,
-};
-
-/** Piezas de tu lista que aún no tienen fichero directo. */
-export const PENDING_ITEMS: Transcription[] = TRANSCRIPTIONS.filter(
-  (item) => item.requested && !hasFile(item),
-);
 
 export const CATEGORIES: Category[] = [
   "Solo",
@@ -139,26 +114,13 @@ export const MEDIA_KINDS: { kind: MediaKind; label: string }[] = [
   { kind: "page", label: "Página" },
 ];
 
-const countBy = (values: string[]): Map<string, number> =>
-  values.reduce((acc, value) => acc.set(value, (acc.get(value) ?? 0) + 1), new Map<string, number>());
-
-export const PROJECT_COUNTS: Map<string, number> = countBy(TRANSCRIPTIONS.map((item) => item.project));
-
-/** Proyectos presentes en la BBDD, ordenados por número de piezas. */
-export const PROJECTS: { name: string; count: number }[] = [...PROJECT_COUNTS.entries()]
-  .map(([name, count]) => ({ name, count }))
-  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-
-export const CATEGORY_COUNTS: Map<string, number> = countBy(TRANSCRIPTIONS.map((item) => item.category));
-export const KIND_COUNTS: Map<string, number> = countBy(TRANSCRIPTIONS.map((item) => item.media.kind));
-/** Piezas de tu lista que aún no tienen fichero resuelto. */
-export const PENDING_COUNT: number = TRANSCRIPTIONS.filter(
-  (item) => item.requested && item.media.kind === "page",
-).length;
-
 export interface CatalogFilters {
   query: string;
   project: string | "all";
+  /** Página concreta de una fuente (desde la vista de fuentes). */
+  page: string | "all";
+  /** Título de la página filtrada, para la etiqueta activa. */
+  pageTitle?: string;
   category: Category | "all";
   instrument: Instrument | "all";
   kind: MediaKind | "all";
@@ -175,6 +137,8 @@ export interface CatalogFilters {
 export const EMPTY_FILTERS: CatalogFilters = {
   query: "",
   project: "all",
+  page: "all",
+  pageTitle: undefined,
   category: "all",
   instrument: "all",
   kind: "all",
@@ -261,6 +225,9 @@ export function matchesFilters(resource: Transcription, filters: CatalogFilters)
     return false;
   }
   if (filters.project !== "all" && resource.project !== filters.project) return false;
+  if (filters.page !== "all" && resource.pageUrl !== filters.page && resource.sourceUrl !== filters.page) {
+    return false;
+  }
   if (filters.category !== "all" && resource.category !== filters.category) return false;
   if (filters.kind !== "all" && resource.media.kind !== filters.kind) return false;
   if (filters.key !== "all" && resource.key !== filters.key) return false;
@@ -376,7 +343,10 @@ export function sourceUrl(resource: Transcription): string {
 /** Filtros activos, para mostrarlos como etiquetas quitables. */
 export function activeFilterChips(filters: CatalogFilters): { key: keyof CatalogFilters; label: string }[] {
   const chips: { key: keyof CatalogFilters; label: string }[] = [];
-  if (filters.project !== "all") chips.push({ key: "project", label: `Proyecto: ${filters.project}` });
+  if (filters.page !== "all") {
+    chips.push({ key: "page", label: `Página: ${filters.pageTitle ?? filters.page}` });
+  }
+  if (filters.project !== "all") chips.push({ key: "project", label: `Fuente: ${filters.project}` });
   if (filters.category !== "all") chips.push({ key: "category", label: `Categoría: ${filters.category}` });
   if (filters.instrument !== "all") chips.push({ key: "instrument", label: `Instrumento: ${filters.instrument}` });
   if (filters.kind !== "all") chips.push({ key: "kind", label: `Tipo: ${kindLabel(filters.kind as MediaKind)}` });
